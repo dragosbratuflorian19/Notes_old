@@ -11,8 +11,9 @@ $ git status  # Check status of the working tree
 $ git commit  # Check changes in Index
 $ git commit - m 'Comentariu aici'  # Without editing
 $ git push  # Push the local repository to the remote repository
-$ git remote add origin https: // github.com / dragosbratuflorian19 / MyAppSample.git
+$ git remote add origin <https://github.com/dragosbratuflorian19/Projects.git>
 $ git push - u origin master
+$ git push --set-upstream origin master # Commit first time
 $ git pull  # Pull the latest changes from the remote repository
 $ git clone  # Copy a remote repository into a new Directory
 $ touch .gitignore

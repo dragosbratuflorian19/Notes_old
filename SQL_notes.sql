@@ -11,7 +11,7 @@ DATE - date of format: YYYY-MM-DD
 TIMESTAMP - of format YYYY-MM-DD HH:MM:SS - used for recordings
 ------------------------------------------------------------------------------------------------------------------------
 -- Drop a database if it already exists
-DROP DATABASE IF EXISTS `football_players`;
+DROP DATABASE I F EXISTS `football_players`;
 ------------------------------------------------------------------------------------------------------------------------
 -- Create a database
 CREATE DATABASE `football_players`;

@@ -1,4 +1,15 @@
 ------------------------------------------------------------------------------------------------------------------------
+-- General information
+C.R.U.D. : Create.Read.Update.Delete
+Query: A google search is a Query
+-- Data Types
+INT - Whole Number
+DECIMAL(M,N) - Decimal number : M - total number of digits, N - number of digits after the decimal point
+VARCHAR(l) - String of text of length l
+BLOB - binary large object; it stores large data (images, files)
+DATE - date of format: YYYY-MM-DD
+TIMESTAMP - of format YYYY-MM-DD HH:MM:SS - used for recordings
+------------------------------------------------------------------------------------------------------------------------
 -- Drop a database if it already exists
 DROP DATABASE IF EXISTS `football_players`;
 ------------------------------------------------------------------------------------------------------------------------
@@ -15,16 +26,23 @@ USE `football_players`;
 -- Use PRIMARY KEY
 -- Use DEFAULT value
 CREATE TABLE `players` (
-  `player_id` int(11) NOT NULL AUTO_INCREMENT,
+  `player_id` int(11) AUTO_INCREMENT,
   `player_name` varchar(50) NOT NULL,
   `ucl` tinyint(4) NOT NULL,
   `team_prefix` char(3) NOT NULL,
   `fav_team` varchar(50) DEFAULT NULL,
   `Ballon dor` smallint(6) NOT NULL DEFAULT '0',
   `date_of_born` date NOT NULL,
-  `market_value` decimal(9,2) NOT NULL,
+  `market_value` decimal(9,2) UNIQUE ,
   PRIMARY KEY (`player_id`)
 );
+------------------------------------------------------------------------------------------------------------------------
+-- Delete a table
+DROP TABLE players;
+------------------------------------------------------------------------------------------------------------------------
+-- Add/Delete a column
+ALTER TABLE players ADD form INT(5);
+ALTER TABLE players DROP COLUMN form;
 ------------------------------------------------------------------------------------------------------------------------
 -- Insert into table
 INSERT INTO `players` VALUES (1,'Cristiano Ronaldo', 4,'JUV','Manchester United', 5, '1985-02-25', 150.50);
@@ -35,6 +53,15 @@ INSERT INTO `players` VALUES (2,'Marcus Rashford', 0, 'MUN','Manchester United',
   KEY `fk_invoice_id_idx` (`invoice_id`),
   CONSTRAINT `fk_payment_client` FOREIGN KEY (`client_id`) REFERENCES `clients` (`client_id`) ON UPDATE CASCADE,
   CONSTRAINT `fk_payment_invoice` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`invoice_id`) ON UPDATE CASCADE
+------------------------------------------------------------------------------------------------------------------------
+-- Update some values
+UPDATE players
+SET team = 'Manchester United', fav_team = 'ManU'
+WHERE team = 'Manchester Utd' OR team = 'Man Utd';
+------------------------------------------------------------------------------------------------------------------------
+-- DELETE a column
+DELETE FROM players
+WHERE player_id = 2
 ------------------------------------------------------------------------------------------------------------------------
 -- SELECT statement
 -- WHERE statement

@@ -61,3 +61,87 @@ predictions = model.predict(test_samples, batch_size=10, verbose=0)
 # How do we know: when validation << training
 # Fighting again overfitting: more data and data augmentation (crop, zoom, rotating, flipping)
 # and reducing the complexity of the model (reducing layers or neurons from layers)
+#######################################################################################################
+# Underfitting: when training acc is low or loss is high
+# Fighting again overfitting: increase the complexity of the model ( higher number of layers or neurons),
+# adding more features to the data,
+#######################################################################################################
+# Supervised learning
+train_samples = [[123, 21], [312, 43], [231, 12]]
+train_labels = [1, 0, 1]
+model.fit(x=train_samples, y=train_labels, batch_size=3, epochs=10, shuffle=True, verbose=2)
+#######################################################################################################
+# Supervised learning
+# Labeled data
+#######################################################################################################
+# Unsupervised learning
+# clustering
+#######################################################################################################
+# Semi-supervised learning
+# When only part of the data is labeled
+# Pseudo-labeling: Train with the labeled data -> label using the model the unlabeled data -> train the whole model with the new 100% labeled data
+#######################################################################################################
+# Encoding
+# Cat, Dog, Lizard - > [x, x, x]
+# Cat - > [1, 0, 0]
+#######################################################################################################
+# Convolutinal NN : for analyzing images
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.convolutional import *
+from tensorflow.keras.core import Dense, Flatten
+# use of filters: Edge detector, squares, corners, circles
+# Sliding through each 3x3 block of pixels: convolving through each block ( using a filter)
+# Type of filters:
+# -1: black, 1: white, 0: grey
+# -1 -1 -1
+#  1  1  1
+#  0  0  0
+#######################################################################################################
+# Zero padding
+# Initial    Padding
+#
+#            0 0 0 0 0
+# 1 1 3      0 1 1 3 0
+# 4 2 4      0 4 2 4 0
+# 2 4 9      0 2 4 9 0
+#            0 0 0 0 0
+
+model = tf.keras.models.Sequential([
+    Dense(16, activation='relu', input_shape(20, 20, 3)),
+    Conv2D(32, kernel_size(3, 3), activation='relu', padding='valid'), # no padding ( default)
+    Conv2D(64, kernel_size(5, 5), activation='relu', padding='same'), # padding
+    Dense(2, activation='softmax')
+])
+#######################################################################################################
+# Max pooling
+from tensorflow.keras.pooling import *
+# filter size = how much we pool
+# stride = how much we move after we pool
+model = tf.keras.models.Sequential([
+    Dense(16, activation='relu', input_shape(20, 20, 3)),
+    Conv2D(32, kernel_size(3, 3), activation='relu', padding='same'),
+    MaxPooling2D(pool_size(2, 2), strides=2, padding='valid'),
+    Conv2D(64, kernel_size(5, 5), activation='relu', padding='same'), # padding
+    Dense(2, activation='softmax')
+])
+#######################################################################################################
+# Back propagation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

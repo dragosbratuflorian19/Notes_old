@@ -27,3 +27,6 @@ README.md  # Marked down
 This is my app  # Readme file
 $ git clone https: // github.com / dragosbratuflorian19 / MyAppSample.git  # Clone a repo
 escape: wq to escape from edit
+$ git config --global user.email 'dragosbratuflorian19@gmail.com'
+$ git config --global user.name 'dragosbratuflorian19'
+$ git add . != git reset

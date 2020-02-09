@@ -125,4 +125,16 @@ image = np.expand_dims(ndimage.imread(image_path), 0) # expand_dims to be compat
 aug_iter = gen.flow(image) # generate batches of augmented images: takes the numpy data and generates back augmented data
 aug_images = [next(aug_iter)[0].astype(np.uint8) for i in range(10)]
 #######################################################################################################
+# Initialize and access bias
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Dense(4, input_shape=(1,), activation='relu', use_bias=True, bias_initializer='zeros'),
+    tf.keras.layers.Dense(2, activation='softmax')
+ ])
+model.get_weights()
+#######################################################################################################
+# Trainable parameters
+weights and biases
+# In a CNN
+same
+#######################################################################################################
 #

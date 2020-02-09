@@ -24,6 +24,3 @@ y  = [6,7,8,2,4]
 plt.bar(x, y, label='Bars1', color='r')
 ##################################################################################
 # Histograms
-git config --global user.email 'dragosbratuflorian19@gmail.com'
-git config --global user.name 'dragosbratuflorian19'
-git add . != git reset

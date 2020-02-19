@@ -3,3 +3,4 @@ Anaconda distribution:
 	conda install pytorch torchvision -c pytorch
 - Check if pytorch is installed:
 	conda list pytorch
+sdasd

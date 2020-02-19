@@ -66,7 +66,7 @@ ADD FOREIGN KEY(captain_id)
 REFERENCES players(player_id)
 ON DELETE SET NULL;
 -- Directly foreign key
-CREATE TABLE client (
+CREATE TABLE client ( 
   client_id INT PRIMARY KEY,
   client_name VARCHAR(40),
   branch_id INT,

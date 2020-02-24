@@ -4,4 +4,10 @@ Neural networks:
  - plain vanilla  aka multilayer perceptron
  - Relu: rectified linear unit: RElu(a) = max(0, a)
  - Sigmoid: Slow learner
- 
+
+ Anaconda distribution:
+ - Install pytorch:
+	conda install pytorch torchvision -c pytorch
+ - Check if pytorch is installed:
+	conda list pytorch
+

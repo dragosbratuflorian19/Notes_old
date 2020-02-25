@@ -101,6 +101,66 @@ t = torch.tensor([
 # To find the shape:
 t.size() # torch.Size([3, 4])
 t.shape # torch.Size([3, 4])
+# To see thwe number of elements
+t.numel() # 12
+# Squeezing and unsqueezing a tensor
+t.reshape(1, 12).squeeze() # tensor([1., 1., 1., 2., 2... 3.])
+t.reshape(1, 12).squeeze().unsqueeze(dim=0) # tensor([[1., 1., 1., 2., 2... 3.]])
+# Flattening function:
+
+def flatten(my_tensor):
+	my_tensor = my_tensor.reshape(1, -1)
+	my_tensor = my_tensor.squeeze()
+	return my_tensor
+
+t = torch.tensor([
+  [1, 1, 1, 1],
+  [2, 2, 2, 2]
+], dtype=torch.float32)
+
+flatten(t) # tensor([1, 1, 1, 1, 2, 2, 2, 2])
+###########################################################################
+import torch
+
+t1 = torch.tensor([
+	[1, 1, 1, 1],
+	[1, 1, 1, 1],
+	[1, 1, 1, 1],
+	[1, 1, 1, 1]
+])
+
+t2 = torch.tensor([
+	[2, 2, 2, 2],
+	[2, 2, 2, 2],
+	[2, 2, 2, 2],
+	[2, 2, 2, 2]
+])
+
+t3 = torch.tensor([
+	[3, 3, 3, 3],
+	[3, 3, 3, 3],
+	[3, 3, 3, 3],
+	[3, 3, 3, 3]
+])
+
+# Concatenate
+
+t = torch.stack((t1, t2, t3))
+t.shape # torch.Size([3, 4, 4])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

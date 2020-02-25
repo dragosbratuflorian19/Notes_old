@@ -73,6 +73,38 @@ torch.ones(2, 2)
 torch.rand(2, 2)
 # 0.312 0.652
 # 0.452 0.912
+###########################################################################
+# Differences
+data = np.array([1, 2, 3])
+torch.Tensor(data) # tensor([1., 2., 3.]) # Class constructor
+torch.tensor(data) # tensor([1, 2, 3], dtype=torch,int32) # Factory function ( also as_tensor, from_numpy) -> Prefered 
+torch.as_tensor(data) # tensor([1, 2, 3], dtype=torch,int32)
+torch.from_numpy(data) # tensor([1, 2, 3], dtype=torch,int32)
+# Set the data type
+torch.tensor(np.array([1, 2, 3]), dtype=torch.float64) # tensor([1., 2., 3.], dtype=torch.float64)
+# Change the array
+data = np.array([0, 0, 0])
+torch.Tensor(data) # tensor([1., 2., 3.]) -> Unchanged/Create an additional copy of the data in memory
+torch.tensor(data) # tensor([1, 2, 3], dtype=torch,int32) -> Unchanged/Create an additional copy of the data in memory --> Most used
+torch.as_tensor(data) # tensor([0, 0, 0], dtype=torch,int32) -> Changed/Share data --> Accepts any array
+torch.from_numpy(data) # tensor([0, 0, 0], dtype=torch,int32) -> Changed/Share data --> Accepts only numpy arrays
+
+# as_tensor doesn't work with built-in data structures like lists.
+###########################################################################
+import torch
+
+t = torch.tensor([
+  [1, 1, 1, 1],
+  [2, 2, 2, 2],
+  [3, 3, 3, 3]
+], dtype=torch.float32)
+# To find the shape:
+t.size() # torch.Size([3, 4])
+t.shape # torch.Size([3, 4])
+
+
+
+
 
 
 

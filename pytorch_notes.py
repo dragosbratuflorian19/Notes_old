@@ -1,3 +1,4 @@
+###########################################################################
 # Pytorch packages:
 #  - torch: the top level packages
 #  - torch.nn: contains layers, weights...
@@ -120,6 +121,16 @@ t = torch.tensor([
 
 flatten(t) # tensor([1, 1, 1, 1, 2, 2, 2, 2])
 ###########################################################################
+# Image of an eight: 8x8 pixels
+# 0 0 0 0 0 0 0 0 
+# 0 0 0 x x 0 0 0 
+# 0 0 x 0 0 x 0 0 
+# 0 0 0 x x 0 0 0 
+# 0 0 x 0 0 x 0 0 
+# 0 0 x 0 0 x 0 0 
+# 0 0 0 x x 0 0 0 
+# 0 0 0 0 0 0 0 0 
+###########################################################################
 import torch
 
 t1 = torch.tensor([
@@ -146,20 +157,88 @@ t3 = torch.tensor([
 # Concatenate
 
 t = torch.stack((t1, t2, t3))
-t.shape # torch.Size([3, 4, 4])
+t.shape # torch.Size([3, 4, 4]) # batch of 3 tensors with the height and weight of 4
+# In order for a CNN to understand the imput (it expects also a color channel, we need to reshape the tensor:
+t = t.reshape(3, 1, 4 ,4)
+3 - image; 1 - color channel; 4 - rows of pixels; 4 - pixels per row
+# When working with CNNs, flattening is required. Flattening examples:
+t = torch.tensor([[
+	[1, 1],
+	[2, 2]],
+	[[3, 3],
+	 [4, 4]]]
 
+t.reshape(1, -1)[0]
+t.reshape(-1)
+t.view(t.numel())
 
+t.flatten() # Flatten all the 3 images ( we don't want that)
+# tensor([1, 1, 2, 2, 3, 3, 4, 4])
+t.flatten(start_dim=1) # Flatten all the 3 images ( we don't want that)
+# tensor([[1, 1, 2, 2],
+	[3, 3, 4, 4]])
 
+###########################################################################
+# Element wise operations:
+# The 2 tensors needs to have the same shape to perform an element wise operation:
+t1 = torch.tensor([
+	[1, 2],
+	[3, 4]])
+t2 = torch.tensor([
+	[9, 8],
+	[7, 6]])
+t1 + t2 # or t1.add(t2)
+# 10.0 10.0
+# 10.0 10.0
 
+# Broadcasting:
+# t1 + 2 means that the 2 is broadcasted:
+np.broadcast_to(2, t1.shape)
+# array([2, 2],
+	[2, 2]])
 
+a = array([10, 5, -1])
+print(a>0)
+# array([True, True, False], dtype=bool)
 
+t1 = torch.tensor([
+	[1, 2],
+	[3, 4]])
+t2 = torch.tensor([9, 8])
+np.broadcast_to(t2, t1.shape)
+# array([9, 8],
+	[9, 8]])
+###########################################################################
+# Reduction operations: Is an operations which reduces the number of elements
 
+import torch
+import numpy as np
 
+t = torch.tensor([
+	[0, 1, 0],
+	[2, 0, 2],
+	[0, 3, 0]
+], dtype=torch.float32)
+# Sum
+t.sum() # tensor(8.)
+t.numel() # 9
+t.sum().numel # 1
 
+# Product, mean, std
+t.prod() # tensor(0.)
+t.mean() # tensor(0.8889)
+t.std() # tensor(1.1667)
 
+# Reduce a specific axis
 
-
-
+t = torch.tensor([
+	[1, 1, 1, 1],
+	[2, 2, 2, 2],
+	[3, 3, 3, 3]
+], dtype=torch.float32)
+# Sum
+t.sum(dim=0) # tensor([6., 6., 6., 6.])
+t.sum(dim=1) # tensor([4., 8., 12.])
 
 
 

@@ -238,13 +238,26 @@ t = torch.tensor([
 ], dtype=torch.float32)
 # Sum
 t.sum(dim=0) # tensor([6., 6., 6., 6.])
-t.sum(dim=1) # tensor([4., 8., 12.])
-
-
-
-
-
-
+t.sum(dim=1) # tensor([4., 8., 12.]) 
+# Argmax function: Tells the index location of the maximum value inside a tensor
+t = torch.tensor([
+	[1, 1, 1, 2],
+	[3, 2, 2, 2],
+	[4, 3, 1, 5]
+], dtype=torch.float32)
+t.max() # tensor(5.)
+t.argmax() # tensor(11)
+t.flatten() #  t = torch.tensor([1, 1, 1, 2, 3, 2, 2, 2, 4, 3, 1, 5])
+t.max(dim=0) # the max values followed by the indexes: (tensor([4., 3., 2., 5.]), tensor([2., 2., 1., 2.]))
+t.argmax(dim=0) # Only the indexes: tensor([2., 2., 1., 2.])
+# What we do when we need the value:
+t.max() # tensor(5.)
+t.max().item() # 5.0
+# What we do when we need the values:
+t.mean(dim=0) # tensor([2.6, 2., 1.3, 3.])
+t.mean(dim=0).tolist() # [2.6, 2., 1.3, 3.]
+t.mean(dim=0).numpy() # array([2.6, 2., 1.3, 3.], dtype=float32) 
+###########################################################################
 
 
 

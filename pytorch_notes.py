@@ -332,11 +332,13 @@ plt.figure(figsize=(15, 15))
 plt.imshow(np.transpose(grid, (1, 2, 0)))
 ###########################################################################
 # Build the model: with torch.nn
+# In CNNs: kernel = filter
 import torch.nn as nn
 
 class Network(nn.Module):
 	def __init__(self):
-		super(Network, self).__init()
+		super(Network, self).__init__()
+
 		self.conv1 = nn.Conv2d(in_channels=1, out_channels=6, kernel_size=5)
 		self.conv2 = nn.Conv2d(in_channels=6, out_channels=12, kernel_size=5)
 
@@ -349,9 +351,23 @@ class Network(nn.Module):
 		t = self.layer(t)
 		return t
 
-
-
-
+	def __repr__(self):
+		return "overriten above nn.Module"
+###########################################################################
+# Learnable parameters in nn
+network = Network()
+print(network)
+# Network(
+# 	(conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1)) # the stride is the sliding of the filter after each computation
+# 	(conv2): Conv2d(6, 12, kernel_size=(5, 5), stride=(1, 1))
+# 	(fc1): Linear(in_features=192, out_features=120, bias=True) # the bias
+# 	(fc2): Linear(in_features=120, out_features=60, bias=True)
+# 	(out): Linear(in_features=60, out_features=10, bias=True)
+# )
+or
+print(network.conv1)
+# 	(conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+# To check the weights
 
 
 

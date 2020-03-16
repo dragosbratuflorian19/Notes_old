@@ -1,0 +1,100 @@
+THEORY
+1. Machine Learning:
+	a. Regression
+	b. Classification
+	c. Clustering
+	d. Algorithms
+		Linear Regression
+		Logistic Regression
+		Decision Tree
+		SVM
+		Naive Bayes
+		kNN
+		K-Means
+		Random Forest
+		Dimensionality Reduction Algorithms
+		Gradient Boosting algorithms
+		GBM
+		XGBoost
+		LightGBM
+		CatBoost
+
+	2. Artificial intelligence:
+	a. CNNs
+	b. RNNs
+	c. LSTM
+	d. DNNs
+
+3. Math
+	a. Linear algebra
+	c. Statistics
+
+
+CODE
+4. Python
+	a. Pandas
+	b. Numpy
+	c. Matplotlib
+	d. Pyspark
+	e. Regex
+	f. SQLite3
+
+5. AI/ML
+	a. Sklearn
+	b. Tensorflow
+	d. Pytorch
+
+6. Others
+	a. GIT
+	b. SQL
+	c. LINUX
+	d. Tableau
+
+
+The most popular regression algorithms are:
+
+Ordinary Least Squares Regression (OLSR)
+Linear Regression
+Logistic Regression
+Stepwise Regression
+Multivariate Adaptive Regression Splines (MARS)
+Locally Estimated Scatterplot Smoothing (LOESS)
+
+The most popular instance-based algorithms are:
+
+k-Nearest Neighbor (kNN)
+Learning Vector Quantization (LVQ)
+Self-Organizing Map (SOM)
+Locally Weighted Learning (LWL)
+Support Vector Machines (SVM)
+
+The most popular Bayesian algorithms are:
+
+Naive Bayes
+Gaussian Naive Bayes
+Multinomial Naive Bayes
+Averaged One-Dependence Estimators (AODE)
+Bayesian Belief Network (BBN)
+Bayesian Network (BN)
+
+The most popular clustering algorithms are:
+
+k-Means
+k-Medians
+Expectation Maximisation (EM)
+Hierarchical Clustering
+
+The most popular deep learning algorithms are:
+
+Convolutional Neural Network (CNN)
+Recurrent Neural Networks (RNNs)
+Long Short-Term Memory Networks (LSTMs)
+Stacked Auto-Encoders
+Deep Boltzmann Machine (DBM)
+Deep Belief Networks (DBN)
+
+
+
+
+
+

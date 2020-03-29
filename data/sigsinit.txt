@@ -1,0 +1,1776 @@
+_sim_on_ CBC,ICS   ;these comma-separated ECUs will automatically be restored to the 'simulating' state at the next 'Simulation Awake'
+ABS_IND_STAT=0                          ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+ABSD_HapticSts=0                        ; =Inactive, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+ABSD_Senstivity=0                       ; =EARLY, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+ABSD_Strength=0                         ; =LOW, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+AC_CLTCH_EGD=0                          ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+AC_Stat=0                               ; =OFF, =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+AC_SW_RQ=0                              ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+AC_SW_RQ_M=0                            ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ACC_DLY_ACT=0                           ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+ACC_DLY_TIME=40                         ; =0x28, msg=CBC_CFG1(0x3DE), sender=CBC
+ACN_PRSNT=0                             ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+ADC_DrvMd_CfgSts=0                      ; =MODE_1, =0x0, msg=CBC_I6(0x305), sender=CBC
+ADC_Stat=0                              ; =MODE_1, =0x0, msg=ADS_A1(0x36A), sender=CBC
+ADS_MODE_REQ=0                          ; =DEFAULT, =0x0, msg=Radio_A1(0x380), sender=ETM
+AFLS_ENBL=0                             ; =0x0, msg=GW_C_I2(0x30A), sender=CBC
+AHB_ENBL=0                              ; =0x0, msg=CBC_I1(0x3B2), sender=CBC
+AirFuelRatio=255                        ; =0xFF, msg=GW_C_I_12(0x2FF), sender=CBC
+AMB_TEMP_AVG_C=66                       ; =0x42, msg=AMB_TEMP_DISP(0x3C9), sender=CBC
+AMB_TEMP_AVG_F=138                      ; =0x8A, msg=AMB_TEMP_DISP(0x3C9), sender=CBC
+AMP_DSS_STAT=0                          ; =CFG_ST, =0x0, msg=AMP_A1(0x354), sender=AMP
+AMP_EQ=223                              ; =0xDF, msg=AMP_A1(0x354), sender=AMP
+ANT_TYP=0                               ; =PASSIVE_PRIMARY_AND_NO_SECONDARY, =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+APPS_PRSNT=0                            ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+AQS_Active=0                            ; =0x0, msg=HVAC_A2(0x230), sender=HVAC
+AS_CHIME_REP_RATE=0                     ; =0x0, msg=AS_CHIME_STAT(0x346), sender=CBC
+AS_CHIME_TYPE=0                         ; =NONE, =0x0, msg=AS_CHIME_STAT(0x346), sender=CBC
+AS_LF_CHIME_RQ=0                        ; =0x0, msg=AS_CHIME_STAT(0x346), sender=CBC
+AS_RF_CHIME_RQ=0                        ; =0x0, msg=AS_CHIME_STAT(0x346), sender=CBC
+ASCM_Stat=0                             ; =NO_MESS, =0x0, msg=GW_C_I_11(0x2E0), sender=CBC
+ASCM_TJM=0                              ; =0x0, msg=GW_C_I2(0x30A), sender=CBC
+ASCM_WarnOnly=0                         ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+AUD_LVL=0                               ; =0x0, msg=AMP_CTRL(0x30F), sender=ETM
+AUD_MODE_ADV=0                          ; =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+AUTO_LK=0                               ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+AUTO_MD_SW_RQ=0                         ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+AUTO_MD_SW_RQ_2_M=0                     ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+AUTO_MD_SW_RQ_M=0                       ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+AUTO_STAT=1                             ; =ON, =0x1, msg=HVAC_A1(0x30E), sender=HVAC
+AUTO_STAT_2=0                           ; =OFF, =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+AUTO_UNLK=0                             ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+Audio_MuteRq=0                          ; =0x0, msg=TBM_CTRL(0x2DE), sender=SGW
+AudioMuteRq=0                           ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+AutoFoldMirror_CSO=0                    ; =0x0, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+AutoLkDsbl=0                            ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+AutoParkSts=0                           ; =OFF, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+Avg_Fuel_Econ=1023                      ; =0x3FF, msg=GW_C_I_12(0x2FF), sender=CBC
+AvgFuelLvl=511                          ; =0x1FF, msg=GW_C_I2(0x30A), sender=CBC
+AWD_SERVICE_STAT=0                      ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Awake_Diag_Actv_AMP=1                   ; =0x1, msg=NM_AMP(0x43E), sender=AMP
+Awake_Diag_Actv_ANC=1                   ; =0x1, msg=NM_ANC(0x425), sender=ANC
+Awake_Diag_Actv_CBC=1                   ; =0x1, msg=NM_CBC(0x401), sender=CBC
+Awake_Diag_Actv_CSWM=1                  ; =0x1, msg=NM_CSWM(0x412), sender=CSWM
+Awake_Diag_Actv_DCM_DR=1                ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+Awake_Diag_Actv_DCM_PASS=1              ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+Awake_Diag_Actv_DCM_RL=1                ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+Awake_Diag_Actv_DCM_RR=1                ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+Awake_Diag_Actv_DCSD=1                  ; =0x1, msg=NM_DCSD(0x42C), sender=DCSD
+Awake_Diag_Actv_DTV=1                   ; =0x1, msg=NM_DTV(0x434), sender=DTV
+Awake_Diag_Actv_DVD=0                   ; =0x0, msg=NM_DVD(0x436), sender=DVD
+Awake_Diag_Actv_FSM=1                   ; =0x1, msg=NM_FSM(0x40D), sender=FSM
+Awake_Diag_Actv_HVAC=1                  ; =0x1, msg=NM_HVAC(0x403), sender=HVAC
+Awake_Diag_Actv_HVAC_R=1                ; =0x1, msg=NM_HVAC_R(0x418), sender=HVAC_R
+Awake_Diag_Actv_ICS_I=1                 ; =0x1, msg=NM_ICS_I(0x43C), sender=ICS
+Awake_Diag_Actv_ICS_R=1                 ; =0x1, msg=NM_ICS_R(0x42E), sender=ICS_R
+Awake_Diag_Actv_ITM=0                   ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+Awake_Diag_Actv_MSM=1                   ; =0x1, msg=NM_MSM(0x40A), sender=MSM
+Awake_Diag_Actv_MSM_PASS=1              ; =0x1, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+Awake_Diag_Actv_PLG=1                   ; =0x1, msg=NM_PLG(0x40C), sender=PLG
+Awake_Diag_Actv_PSD_LT=1                ; =0x1, msg=NM_PSD_LT(0x408), sender=PSD_LT
+Awake_Diag_Actv_PSD_RT=1                ; =0x1, msg=NM_PSD_RT(0x409), sender=PSD_RT
+Awake_Diag_Actv_PTCM=1                  ; =0x1, msg=NM_PTCM(0x413), sender=PTCM
+Awake_Diag_Actv_TBM=1                   ; =0x1, msg=NM_TBM(0x42B), sender=SGW
+Awake_Diag_Actv_TGW=1                   ; =0x1, msg=NM_TGW(0x43F), sender=ETM
+Awake_Diag_Actv_TTM=1                   ; =0x1, msg=NM_TTM(0x432), sender=TTM
+Awake_Diag_Actv_UPFM=1                  ; =0x1, msg=NM_UPFM(0x41A), sender=UPFM
+Awake_Diag_Actv_VES2=1                  ; =0x1, msg=NM_VES2(0x437), sender=VES2
+Awake_Diag_Actv_VES3=1                  ; =0x1, msg=NM_VES3(0x43B), sender=VES3
+Awake_Diag_Actv_VRM=1                   ; =0x1, msg=NM_VRM(0x42D), sender=SGW
+Awake_Ecall_Actv_TBM=1                  ; =0x1, msg=NM_TBM(0x42B), sender=SGW
+Awake_NwSt_AMP=1                        ; =0x1, msg=NM_AMP(0x43E), sender=AMP
+Awake_NwSt_ANC=1                        ; =0x1, msg=NM_ANC(0x425), sender=ANC
+Awake_NwSt_CBC=1                        ; =0x1, msg=NM_CBC(0x401), sender=CBC
+Awake_NwSt_CSWM=1                       ; =0x1, msg=NM_CSWM(0x412), sender=CSWM
+Awake_NwSt_DCM_DR=1                     ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+Awake_NwSt_DCM_PASS=1                   ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+Awake_NwSt_DCM_RL=1                     ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+Awake_NwSt_DCM_RR=1                     ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+Awake_NwSt_DCSD=1                       ; =0x1, msg=NM_DCSD(0x42C), sender=DCSD
+Awake_NwSt_DTV=1                        ; =0x1, msg=NM_DTV(0x434), sender=DTV
+Awake_NwSt_DVD=0                        ; =0x0, msg=NM_DVD(0x436), sender=DVD
+Awake_NwSt_FSM=1                        ; =0x1, msg=NM_FSM(0x40D), sender=FSM
+Awake_NwSt_HVAC=1                       ; =0x1, msg=NM_HVAC(0x403), sender=HVAC
+Awake_NwSt_HVAC_R=1                     ; =0x1, msg=NM_HVAC_R(0x418), sender=HVAC_R
+Awake_NwSt_ICS_I=1                      ; =0x1, msg=NM_ICS_I(0x43C), sender=ICS
+Awake_NwSt_ICS_R=1                      ; =0x1, msg=NM_ICS_R(0x42E), sender=ICS_R
+Awake_NwSt_ITM=0                        ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+Awake_NwSt_MSM=1                        ; =0x1, msg=NM_MSM(0x40A), sender=MSM
+Awake_NwSt_MSM_PASS=1                   ; =0x1, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+Awake_NwSt_PLG=1                        ; =0x1, msg=NM_PLG(0x40C), sender=PLG
+Awake_NwSt_PSD_LT=1                     ; =0x1, msg=NM_PSD_LT(0x408), sender=PSD_LT
+Awake_NwSt_PSD_RT=1                     ; =0x1, msg=NM_PSD_RT(0x409), sender=PSD_RT
+Awake_NwSt_PTCM=1                       ; =0x1, msg=NM_PTCM(0x413), sender=PTCM
+Awake_NwSt_TBM=1                        ; =0x1, msg=NM_TBM(0x42B), sender=SGW
+Awake_NwSt_TGW=1                        ; =0x1, msg=NM_TGW(0x43F), sender=ETM
+Awake_NwSt_TTM=1                        ; =0x1, msg=NM_TTM(0x432), sender=TTM
+Awake_NwSt_UPFM=1                       ; =0x1, msg=NM_UPFM(0x41A), sender=UPFM
+Awake_NwSt_VES2=1                       ; =0x1, msg=NM_VES2(0x437), sender=VES2
+Awake_NwSt_VES3=1                       ; =0x1, msg=NM_VES3(0x43B), sender=VES3
+Awake_NwSt_VRM=1                        ; =0x1, msg=NM_VRM(0x42D), sender=SGW
+Awake_TGW_Phone_Call=1                  ; =0x1, msg=NM_TGW(0x43F), sender=ETM
+AwakeAnLgLk_Sw_DCM_DR=1                 ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+AwakeAnLgLk_Sw_DCM_PASS=1               ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+AwakeAnLgLk_Sw_DCM_RL=1                 ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+AwakeAnLgLk_Sw_DCM_RR=1                 ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+AwakeLIN_Sw_DCM_DR=1                    ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+AwakeLIN_Sw_DCM_PASS=1                  ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+AwakeLIN_Sw_DCM_RL=1                    ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+AwakeLIN_Sw_DCM_RR=1                    ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+AwakeMemSw_DCM_DR=1                     ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+AwakeMemSw_DCM_PASS=1                   ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+AwakeMemSw_DCM_RL=1                     ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+AwakeMemSw_DCM_RR=1                     ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+AwakeMirrActv_DCM_DR=1                  ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+AwakeMirrActv_DCM_PASS=1                ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+AwakeMirrActv_DCM_RL=1                  ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+AwakeMirrActv_DCM_RR=1                  ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+AwakePAWL_Sw_DCM_DR=1                   ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+AwakePAWL_Sw_DCM_PASS=1                 ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+AwakePAWL_Sw_DCM_RL=1                   ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+AwakePAWL_Sw_DCM_RR=1                   ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+BAL_LVL=10                              ; =LVL_NTRL, =0xA, msg=AMP_CTRL(0x30F), sender=ETM
+BASS_LVL=10                             ; =LVL_NTRL, =0xA, msg=AMP_CTRL(0x30F), sender=ETM
+BATT_VOLT=255                           ; =0xFF, msg=CBC_I3(0x2C2), sender=CBC
+BATT_VOLT_HI=0                          ; =0x0, msg=TGW_CFG_11(0x22F), sender=ETM
+BATT_VOLT_LO=0                          ; =0x0, msg=TGW_CFG_11(0x22F), sender=ETM
+BATTERY_CHARGE_STAT=0                   ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Batt_CabinPriority1=0                   ; =Checkbox_Unselected, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Batt_CabinPriority1_Sts=0               ; =Battery_charging_on_priority, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Batt_CabinPriority2=0                   ; =Checkbox_Unselected, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Batt_CabinPriority2_Sts=0               ; =Battery_charging_on_priority, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Batt_CabinPriority3=0                   ; =Checkbox_Unselected, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Batt_CabinPriority3_Sts=0               ; =Battery_charging_on_priority, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+Batt_ST_Crit=0                          ; =0x0, msg=PN14_STAT(0x248), sender=CBC
+BoostVacGauge=255                       ; =0xFF, msg=GW_C_I_12(0x2FF), sender=CBC
+BRAKE_PAD_STAT=0                        ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+BRK_IND_STAT=0                          ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+BSD_ABSDSts=0                           ; =OFF, =0x0, msg=BSM_A1(0x2D0), sender=LBSS
+BSM_Blind_RQ=0                          ; =0x0, msg=BSM_A1(0x2D0), sender=LBSS
+BSM_CFG_STAT=2                          ; =ENB_LED_CHM, =0x2, msg=BSM_A1(0x2D0), sender=LBSS
+BSM_CFG_STAT_TeenKey=3                  ; =SNA, =0x3, msg=BSM_A1(0x2D0), sender=LBSS
+BSM_CHIME_TYPE=0                        ; =NONE, =0x0, msg=BSM_CHIME_STAT(0x33E), sender=LBSS
+BSM_LF_CHIME_RQ=0                       ; =0x0, msg=BSM_CHIME_STAT(0x33E), sender=LBSS
+BSM_LR_CHIME_RQ=0                       ; =0x0, msg=BSM_CHIME_STAT(0x33E), sender=LBSS
+BSM_OPR_STAT=0                          ; =0x0, msg=BSM_A1(0x2D0), sender=LBSS
+BSM_RF_CHIME_RQ=0                       ; =0x0, msg=BSM_CHIME_STAT(0x33E), sender=LBSS
+BSM_RR_CHIME_RQ=0                       ; =0x0, msg=BSM_CHIME_STAT(0x33E), sender=LBSS
+BSM_SRV_RQ=0                            ; =0x0, msg=BSM_A1(0x2D0), sender=LBSS
+BUBFailSts=0                            ; =No_Fail, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+BuiltUpArea=0                           ; =No_built_up_area, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+bcall_enab=0                            ; =DISABLED, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+CABIN_EQ=0                              ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+CATALYST_TEMP_STAT=0                    ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Call_Number=0                           ; =No_Call, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+Call_Request=0                          ; =No_Call_Request, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+Call_Stat=1                             ; =Idle, =0x1, msg=GLOB_CON_2(0x356), sender=SGW
+Call_Type=0                             ; =No_Call, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+CameraDisplaySts2=0                     ; =OFF, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+CapacityUnit=0                          ; =L, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+CBC_AUX1_HLEnbl=0                       ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX1_PWRMD=0                        ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX1_Type=0                         ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX2_HLEnbl=0                       ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX2_PWRMD=0                        ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX2_Type=0                         ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX3_HLEnbl=0                       ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX3_PWRMD=0                        ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX3_Type=0                         ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX4_HLEnbl=0                       ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX4_PWRMD=0                        ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CBC_AUX4_Type=0                         ; =0x0, msg=CBC_CFG2(0x2AD), sender=CBC
+CELL_VR=0                               ; =CELL_VR_NONE, =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+CFG_AUTO_WPR=0                          ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+CFG_FEATURE=0                           ; =CFG_NONE, =0x0, msg=CFG_RQ(0x314), sender=ETM
+CFG_SET=0                               ; =0x0, msg=CFG_RQ(0x314), sender=ETM
+CFG_STAT_RQ=0                           ; =CFG_DEF, =0x0, msg=CFG_RQ(0x314), sender=ETM
+ChargeNow=0                             ; =No_Charge, =0x0, msg=Radio_A1(0x380), sender=ETM
+ChargeReq=1                             ; =0x1, msg=Radio_A1(0x380), sender=ETM
+ChargeUntilFull1=0                      ; =Charge_Until_Full_Not_selected, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+ChargeUntilFull1_Sts=0                  ; =Charge_Until_Full_Not_selected, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+ChargeUntilFull2=0                      ; =Charge_Until_Full_Not_selected, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+ChargeUntilFull2_Sts=0                  ; =Charge_Until_Full_Not_selected, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+ChargeUntilFull3=0                      ; =Charge_Until_Full_Not_selected, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+ChargeUntilFull3_Sts=0                  ; =Charge_Until_Full_Not_selected, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+ChargingLevel=0                         ; =Default_NoLevel, =0x0, msg=GW_C_I_14(0x398), sender=CBC
+ChargingSysSts=0                        ; =NotCharging, =0x0, msg=GW_C_I_14(0x398), sender=CBC
+CLS_LkSw_Psd_D=0                        ; =0x0, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+CLS_LkSw_Psd_P=0                        ; =0x0, msg=DCM_P_MSG(0x2F2), sender=DCM_PASS
+CLS_UnlkSw_Psd_D=0                      ; =0x0, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+CLS_UnlkSw_Psd_P=0                      ; =0x0, msg=DCM_P_MSG(0x2F2), sender=DCM_PASS
+Clari_FI_PRSNT=0                        ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+ClariFi_Req=1                           ; =0x1, msg=AMP_CTRL(0x30F), sender=ETM
+ClariFi_Sts=1                           ; =0x1, msg=AMP_A1(0x354), sender=AMP
+ClearPersonalData=0                     ; =Not_Active, =0x0, msg=SERVICE_SETUP(0x3A5), sender=SGW
+ClearPersonalDataReq=0                  ; =Not_Active, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+CM_TCH_PT_DTV=0                         ; =0x0, msg=CM_CTRL(0x243), sender=ETM
+CM_TCH_PT_VES=0                         ; =0x0, msg=CM_CTRL(0x243), sender=ETM
+CM_TCH_STAT=0                           ; =TCH_NOT_PSD, =0x0, msg=CM_CTRL(0x243), sender=ETM
+CM_TCH_X_COORD=0                        ; =0x0, msg=CM_CTRL(0x243), sender=ETM
+CM_TCH_Y_COORD=0                        ; =0x0, msg=CM_CTRL(0x243), sender=ETM
+CMP_DIR=15                              ; =SNA, =0xF, msg=COMPASS_A1(0x358), sender=CBC
+CmdIgnStat=0                            ; =IGN_LK, =0x0, msg=CBC_I4(0x122), sender=CBC
+COOLENT_LEVEL_STAT=0                    ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Command_01=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_02=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_03=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_04=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_05=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_07=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_08=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_09=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+Command_10=0                            ; =NOT_PSD, =0x0, msg=SWS_8(0x22D), sender=CBC
+ConfigSts=2                             ; =MID, =0x2, msg=GW_C_I3(0x332), sender=CBC
+ConsumptionUnit=0                       ; =KMPL, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+CountryCode=0                           ; =0x0, msg=META_DATA(0x391), sender=ETM
+CPD=0                                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+CRUISE_EGD=0                            ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+CSOPlgChimeEnableDisableSts=0           ; =0x0, msg=PLG_A1(0x34A), sender=PLG
+DAB_PRSNT=1                             ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+DAMPING_SYSTEM_STAT=0                   ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+DAY_LGT_MD=1                            ; =0x1, msg=CBC_I2(0x2FA), sender=CBC
+Data_TX=0                               ; =Idle, =0x0, msg=GLOB_CON_2(0x356), sender=SGW
+DateTmDay=22                            ; =0x16, msg=Clock_Date(0x350), sender=ETM
+DateTmFormat=1                          ; =FORMAT_12H, =0x1, msg=Clock_Date(0x350), sender=ETM
+DateTmFormat2=7                         ; =SNA, =0x7, msg=Radio_A3(0x3A1), sender=ETM
+DateTmHour=17                           ; =0x11, msg=Clock_Date(0x350), sender=ETM
+DateTmMinute=1                          ; =0x1, msg=Clock_Date(0x350), sender=ETM
+DateTmMonth=1                           ; =0x1, msg=Clock_Date(0x350), sender=ETM
+DateTmSec=0                             ; =0x0, msg=Clock_Date(0x350), sender=ETM
+DateTmYear=2020                         ; =0x7E4, msg=Clock_Date(0x350), sender=ETM
+DCSD_DISP_STAT=1                        ; =ON, =0x1, msg=DCSD_CTRL(0x2A0), sender=DCSD
+DEF_STAT=0                              ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+DEFROST_MODE_PRSNT=0                    ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+DEST=7                                  ; =GERMANY, =0x7, msg=EcuCfg3(0x3F2), sender=CBC
+Default_App_Request=0                   ; =0x0, msg=GLOB_LTM(0x357), sender=ETM
+DISC_VIDEO_OUT=0                        ; =DISC_VIDEO_OFF, =0x0, msg=DVD_MSG(0x373), sender=DVD
+DIST_TO_DEST=0                          ; =0x0, msg=NAV_TRIP(0x35F), sender=ETM
+DIST_TO_TURN=65535                      ; =0xFFFF, msg=DIRECT_INFO(0x35C), sender=ETM
+DIST_TO_TURN_2=65535                    ; =0xFFFF, msg=DIRECT_INFO2(0x376), sender=ETM
+DIST_UNITS=0                            ; =NO_UNITS, =0x0, msg=NAV_TRIP(0x35F), sender=ETM
+DisplayView3=0                          ; =OFF, =0x0, msg=SVC_1(0x2DF), sender=CVPM
+DistanceUnit=0                          ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+Divided_Road=0                          ; =Sgmnt_Not_Dvded_Rd_or_Dual_crrig, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+DOORS_OFF_ACC_DLY_TIME=65535            ; =0xFFFF, msg=CBC_CFG2(0x2AD), sender=CBC
+Do_Not_Repeat1=0                        ; =Repeat, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Do_Not_Repeat1_Sts=0                    ; =Repeat, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Do_Not_Repeat2=0                        ; =Repeat, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Do_Not_Repeat2_Sts=0                    ; =Repeat, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Do_Not_Repeat3=0                        ; =Repeat, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Do_Not_Repeat3_Sts=0                    ; =Repeat, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+DR_ALR=0                                ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+DR_LK_STAT=3                            ; =SNA, =0x3, msg=CBC_I2(0x2FA), sender=CBC
+DR_LKD=0                                ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+DR_MM_Lat=1319696450                    ; =0x4EA8F842, msg=GPS_POS4(0x39B), sender=ETM
+DR_MM_Long=949378358                    ; =0x38965D36, msg=GPS_POS4(0x39B), sender=ETM
+DRIVE_MODE_VERSION=0                    ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+DRL_CSO_PRSNT=0                         ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+DRL_ON=0                                ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+DRV_AJAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+DRV_SUN_SNSR=2047                       ; =0x7FF, msg=HVAC_A1(0x30E), sender=HVAC
+DriverDoorOnOffSts=3                    ; =SNA, =0x3, msg=CBC_I5(0x3A2), sender=CBC
+DriveStyleSts=0                         ; =NORMAL, =0x0, msg=CBC_I2(0x2FA), sender=CBC
+DrvMdHMI_3=0                            ; =0x0, msg=CBC_I6(0x305), sender=CBC
+DrvMdHMI_4=0                            ; =0x0, msg=CBC_I6(0x305), sender=CBC
+DrvSide=0                               ; =Left, =0x0, msg=META_DATA(0x391), sender=ETM
+DSBL_CD_EJCT=0                          ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+DSP_SK_PRSNT=1                          ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+DSS_ON=0                                ; =0x0, msg=AMP_CTRL(0x30F), sender=ETM
+Dsbl_DIAG=1                             ; =0x1, msg=TGW_CFG_11(0x22F), sender=ETM
+Dsbl_Loss_Of_Com=0                      ; =0x0, msg=TGW_CFG_11(0x22F), sender=ETM
+Dsbl_NAV_Lkout=0                        ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+DTV_FrntCam_PRSNT=0                     ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+DTV_SideCam_PRSNT=0                     ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+DVD_AUX_STAT=0                          ; =AUX_MechNP, =0x0, msg=DVD_MSG(0x373), sender=DVD
+DVD_DATA_PT_CAB_DR=0                    ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_DATA_PT_IR1=0                       ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_DATA_PT_IR2=0                       ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_DISC_NUM=0                          ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_DISC_STAT=13                        ; =DVD_NL, =0xD, msg=DVD_MSG(0x373), sender=DVD
+DVD_DISC_TYPE=0                         ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_DISP_CFG=0                          ; =NC, =0x0, msg=DVD_MSG(0x373), sender=DVD
+DVD_DISP_FLAG=0                         ; =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_DISP_MD=0                           ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_GrpNum=0                            ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_GrpTyp=0                            ; =NO_TEXT, =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_HiGrpMark=0                         ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_HOUR=0                              ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_JUMP_FUNC=0                         ; =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_MEDIA_PT=7                          ; =SNA, =0x7, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_MINUTE=0                            ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_NEG_TIME=0                          ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_OUT_STAT=0                          ; =MD_NONE, =0x0, msg=DVD_MSG(0x373), sender=DVD
+DVD_PT_CAB_DR=0                         ; =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_PT_IR1=0                            ; =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_PT_IR2=0                            ; =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_RND_MD=0                            ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_RPT_MD=0                            ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_RQ1=0                               ; =NO_FUNC_RQ, =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_RQ2=0                               ; =NO_FUNC_RQ, =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_RQ3=0                               ; =NO_FUNC_RQ, =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_RSP=0                               ; =RSP_NONE, =0x0, msg=DVD_FUNC(0x341), sender=DVD
+DVD_SECOND=0                            ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD_TEXT=0                              ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_TMPLT_ID=0                          ; =0x0, msg=DVD_DATA(0x383), sender=DVD
+DVD_TRK_FILE=0                          ; =0x0, msg=DVD_STAT(0x3C7), sender=DVD
+DVD1_DATA_PT_CAB_DR=0                   ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_DATA_PT_IR1=0                      ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_DATA_PT_IR2=0                      ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_GrpNum=0                           ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_GrpTyp=0                           ; =NO_TEXT, =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_HiGrpMark=0                        ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_TEXT=0                             ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD1_TMPLT_ID=0                         ; =0x0, msg=DVD_DATA1(0x384), sender=DVD
+DVD2_DATA_PT_CAB_DR=0                   ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_DATA_PT_IR1=0                      ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_DATA_PT_IR2=0                      ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_GrpNum=0                           ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_GrpTyp=0                           ; =NO_TEXT, =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_HiGrpMark=0                        ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_TEXT=0                             ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD2_TMPLT_ID=0                         ; =0x0, msg=DVD_DATA2(0x385), sender=DVD
+DVD3_DATA_PT_CAB_DR=0                   ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_DATA_PT_IR1=0                      ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_DATA_PT_IR2=0                      ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_GrpNum=0                           ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_GrpTyp=0                           ; =NO_TEXT, =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_HiGrpMark=0                        ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_TEXT=0                             ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DVD3_TMPLT_ID=0                         ; =0x0, msg=DVD_DATA3(0x386), sender=DVD
+DynamicGridResp=1                       ; =0x1, msg=CBC_CFG1(0x3DE), sender=CBC
+DynamicGridRespSts=1                    ; =0x1, msg=SVC_1(0x2DF), sender=CVPM
+E_CALL_BtnStat=0                        ; =NOT_PSD, =0x0, msg=CBC_I1(0x3B2), sender=CBC
+E_CALL_STAT=0                           ; =OFF, =0x0, msg=TGW_A1(0x302), sender=ETM
+E_CALL_STAT_OHC=0                       ; =Off, =0x0, msg=TGW_A1(0x302), sender=ETM
+E_Mode_Sts=0                            ; =ECO_OFF, =0x0, msg=CBC_I6(0x305), sender=CBC
+EASY_ENTRY_ENABLE=0                     ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+EASY_EXIT=3                             ; =SNA, =0x3, msg=MSM_A1(0x2F0), sender=MSM
+Early_Fuel_TeenKey=0                    ; =0x0, msg=GW_C_I9(0x32C), sender=CBC
+EBL_Stat=1                              ; =ON, =0x1, msg=HVAC_A1(0x30E), sender=HVAC
+EC_AudTel1A=52                          ; =0x34, msg=EcuCfg3(0x3F2), sender=CBC
+EC_AudTel1B=458944                      ; =0x700C0, msg=EcuCfg3(0x3F2), sender=CBC
+EC_AudTel2=159383589                    ; =0x9800025, msg=EcuCfg3(0x3F2), sender=CBC
+EC_AudTel3A=0                           ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EC_AudTel3B=16777216                    ; =0x1000000, msg=EcuCfg16(0x2C5), sender=CBC
+EC_AudTel4A=0                           ; =0x0, msg=EcuCfg18(0x2C7), sender=CBC
+EC_AudTel4B=0                           ; =0x0, msg=EcuCfg18(0x2C7), sender=CBC
+EC_ECUCfg16_Stat=1                      ; =PROGAMMED, =0x1, msg=EcuCfg16(0x2C5), sender=CBC
+EC_ECUCfg18_Stat=3                      ; =SNA, =0x3, msg=EcuCfg18(0x2C7), sender=CBC
+EC_ECUCfg3_Stat=1                       ; =PROGAMMED, =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+EC_MIRROR_HK_PRSNT=0                    ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EC_MirrStat=3                           ; =SNA, =0x3, msg=CBC_I1(0x3B2), sender=CBC
+Echarge_Type_Cnfm=0                     ; =Battery_Save, =0x0, msg=GW_C_I_10(0x24E), sender=CBC
+EcuCfg16_Byte1_Bit6=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte1_Bit7=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit1=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit2=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit3=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit4=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit5=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit6=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte5_Bit7=0                   ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte6=0                        ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte7=0                        ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EcuCfg16_Byte8=0                        ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+EffSdpLmt=0                             ; =Unknown, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+EffSpdLmtType=0                         ; =Implicit, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+ELEC_STAB_STAT=0                        ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+ELECTRIC_WRENCH_STAT=0                  ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+EModeSwPsd=0                            ; =DEFAULT, =0x0, msg=TGW_A1(0x302), sender=ETM
+EmodeBtnSts=0                           ; =OFF, =0x0, msg=GW_C_I2(0x30A), sender=CBC
+ENGINE_MIL_STAT=0                       ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+ENGINE_TEMP_STAT=0                      ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Enable_Schedule1=0                      ; =Disable_schedule, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Enable_Schedule2=0                      ; =Disable_schedule, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Enable_Schedule3=0                      ; =Disable_schedule, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+End_Call=0                              ; =0x0, msg=GLOB_LTM(0x357), sender=ETM
+End_Time_Hr1=0                          ; =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+End_Time_Hr1_Sts=0                      ; =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+End_Time_Hr2=0                          ; =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+End_Time_Hr2_Sts=0                      ; =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+End_Time_Hr3=0                          ; =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+End_Time_Hr3_Sts=0                      ; =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+End_Time_Min1=0                         ; =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+End_Time_Min1_Sts=0                     ; =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+End_Time_Min2=0                         ; =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+End_Time_Min2_Sts=0                     ; =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+End_Time_Min3=0                         ; =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+End_Time_Min3_Sts=0                     ; =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+Eng_DrvMdRq=0                           ; =NORMAL, =0x0, msg=Radio_A1(0x380), sender=ETM
+EngCoolTemp=255                         ; =0xFF, msg=GW_C_I2(0x30A), sender=CBC
+EngOilTemp=255                          ; =0xFF, msg=GW_C_I5(0x232), sender=CBC
+EngRPM=0                                ; =0x0, msg=GW_C1(0x322), sender=CBC
+EngRun_Stat=7                           ; =SNA, =0x7, msg=GW_C_I_10(0x24E), sender=CBC
+EngTrqStatic=8191                       ; =0x1FFF, msg=GW_C1(0x322), sender=CBC
+EPB_WARN_STAT=0                         ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+EPBHoldSts=0                            ; =REL, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+EPS_DrvMd_CfgSts=0                      ; =MODE_1, =0x0, msg=CBC_I6(0x305), sender=CBC
+EPS_MODE_CFG_STAT=0                     ; =MODE_1, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+EPS_MODE_REQ=0                          ; =DEFAULT, =0x0, msg=Radio_A1(0x380), sender=ETM
+EPS_MODE_STAT=0                         ; =MODE_1, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+EPS_STAT=0                              ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+EPS_Warn_Disp_Rq=0                      ; =OK, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+ErrSys_1=0                              ; =0x0, msg=CBC_I6(0x305), sender=CBC
+ErrSys_2=0                              ; =0x0, msg=CBC_I6(0x305), sender=CBC
+ErrSys_3=0                              ; =0x0, msg=CBC_I6(0x305), sender=CBC
+ErrSys_4=0                              ; =0x0, msg=CBC_I6(0x305), sender=CBC
+ErrSys_5=0                              ; =0x0, msg=CBC_I6(0x305), sender=CBC
+ESC_DrvMd_CfgSts=0                      ; =STREET, =0x0, msg=CBC_I6(0x305), sender=CBC
+ESC_OFF_Hrd_Sft_Button_sts=0            ; =STREET, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+ESC_Sft_btn_status=4                    ; =NOT_PRESSED, =0x4, msg=Radio_A1(0x380), sender=ETM
+ESC_sftbtn_launch_sel=0                 ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+ESS_ENG_ST=15                           ; =SNA, =0xF, msg=GW_C_I7(0x340), sender=CBC
+ETA_Hour=255                            ; =0xFF, msg=NAV_TRIP(0x35F), sender=ETM
+ETA_Minutes=255                         ; =0xFF, msg=NAV_TRIP(0x35F), sender=ETM
+ETC_CONTROL_STAT=0                      ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+ExteriorRearReleaseSwitchSts=0          ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+External_Port_Type=5                    ; =AUX_plus_USB_plus_SD_plus_extra_USB, =0x5, msg=EcuCfg3(0x3F2), sender=CBC
+FCW_BrkOn=1                             ; =0x1, msg=GW_C_I7(0x340), sender=CBC
+FCW_SYSTEM_STAT=0                       ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+FCWBrkTeen=0                            ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+FCWSetting=0                            ; =OFF, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+FCWSettingTeen=0                        ; =OFF, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+FCWState=0                              ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+FD_LVL=10                               ; =LVL_NTRL, =0xA, msg=AMP_CTRL(0x30F), sender=ETM
+FFC_GRIDLINES_RespSts=0                 ; =0x0, msg=SVC_1(0x2DF), sender=CVPM
+FL_HS_RQ_TGW=0                          ; =HS_NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+FL_HS_STAT=0                            ; =HS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+FL_Lvl=254                              ; =NOT_INIT, =0xFE, msg=GW_C_I_11(0x2E0), sender=CBC
+FL_VS_RQ_TGW=0                          ; =VS_NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+FL_VS_STAT=0                            ; =VS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+FLASH_LK=0                              ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+FOUR_WD_SERVICE_STAT=0                  ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+FormOfWay=0                             ; =TYPE_0, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+FR_HS_RQ_TGW=0                          ; =HS_NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+FR_HS_STAT=0                            ; =HS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+FR_Lvl=254                              ; =NOT_INIT, =0xFE, msg=GW_C_I_11(0x2E0), sender=CBC
+FR_VS_RQ_TGW=0                          ; =VS_NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+FR_VS_STAT=0                            ; =VS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+Front_Int_SD_LT_Sw=0                    ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+Front_Int_SD_RT_Sw=0                    ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+FT_DEF_STAT=0                           ; =OFF, =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+FT_DEF_SW_RQ_M=0                        ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+FT_DRV_ATC_TEMP=73                      ; =0x49, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_DRV_ATC_TEMP_M=0                     ; =0x0, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_DRV_MTC_TEMP=127                     ; =0x7F, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_HVAC_BLW_FN_SP=21                    ; =0x15, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_HVAC_BLW_FN_SP_M=127                 ; =0x7F, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_HVAC_CTRL_STAT=1                     ; =BLW_AUTO_MD_AUTO, =0x1, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_HVAC_CTRL_STAT_2_M=0                 ; =HVAC_CTRL_OFF, =0x0, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_HVAC_CTRL_STAT_M=0                   ; =HVAC_CTRL_OFF, =0x0, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_HVAC_MD_RQ=0                         ; =NO_CHANGE, =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+FT_HVAC_MD_RQ_M=15                      ; =SNA, =0xF, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+FT_HVAC_MD_STAT=6                       ; =BI_LVL_MD, =0x6, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_HVAC_MD_STAT_2_M=15                  ; =SNA, =0xF, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_HVAC_MD_STAT_M=15                    ; =SNA, =0xF, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_HVAC_SW_RQ=0                         ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+FT_HVAC_SW_RQ_M=0                       ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+FT_PSG_ATC_TEMP=73                      ; =0x49, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_PSG_ATC_TEMP_M=0                     ; =0x0, msg=FT_HVAC_ICS_STAT_M(0x34D), sender=HVAC
+FT_PSG_MTC_TEMP=127                     ; =0x7F, msg=FT_HVAC_ICS_STAT(0x34E), sender=HVAC
+FT_PTS_Prsnt=0                          ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+FUEL_CAP_STAT=0                         ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+FUEL_TYPE=7                             ; =SNA, =0x7, msg=GW_C_I2(0x30A), sender=CBC
+Fuel_Popup_TeenKey=0                    ; =0x0, msg=GW_C_I9(0x32C), sender=CBC
+FuncRoadClass=0                         ; =Unknown, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+FusedSpeedLimit=0                       ; =Unknown, =0x0, msg=CAM_MAP_FUSION(0x3C5), sender=CBC
+Gate_Req_PE=0                           ; =NO_REQ, =0x0, msg=PLG_A1(0x34A), sender=PLG
+GlobDrvMdRq=0                           ; =NONE, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+GlobDrvMdSts=0                          ; =NONE, =0x0, msg=CBC_I2(0x2FA), sender=CBC
+GloveBoxLock_Rq=0                       ; =NO_CHG, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+GloveBoxLock_Stat=0                     ; =NO_CHG, =0x0, msg=CBC_I6(0x305), sender=CBC
+GPS_Date_Day=255                        ; =0xFF, msg=GPS_POS3(0x38C), sender=ETM
+GPS_Date_Month=255                      ; =0xFF, msg=GPS_POS3(0x38C), sender=ETM
+GPS_Date_Year=65535                     ; =0xFFFF, msg=GPS_POS3(0x38C), sender=ETM
+GPS_Lat=1319696450                      ; =0x4EA8F842, msg=GPS_POS1(0x36C), sender=ETM
+GPS_Long=949378358                      ; =0x38965D36, msg=GPS_POS1(0x36C), sender=ETM
+GPS_UTC_Hour=255                        ; =0xFF, msg=GPS_POS3(0x38C), sender=ETM
+GPS_UTC_Minute=255                      ; =0xFF, msg=GPS_POS3(0x38C), sender=ETM
+GPS_UTC_Second=65535                    ; =0xFFFF, msg=GPS_POS3(0x38C), sender=ETM
+GPSFailSts=0                            ; =Fail_not_present, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+Gr=15                                   ; =SNA, =0xF, msg=GW_C1(0x322), sender=CBC
+Gr_Target=15                            ; =SNA, =0xF, msg=GW_C_I7(0x340), sender=CBC
+HALF_CHIME_REP_RATESts=0                ; =0x0, msg=GW_C_I_11(0x2E0), sender=CBC
+HALF_CHIME_TYPESts=0                    ; =NONE, =0x0, msg=GW_C_I_11(0x2E0), sender=CBC
+HALF_LF_CHIME_RQSts=0                   ; =0x0, msg=GW_C_I_11(0x2E0), sender=CBC
+HALF_RF_CHIME_RQSts=0                   ; =0x0, msg=GW_C_I_11(0x2E0), sender=CBC
+Hands_Free_PLG_Enbl=0                   ; =0x0, msg=PLG_A1(0x34A), sender=PLG
+Hands_Free_SLDR_Enbl=0                  ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+HdRstRelRq=0                            ; =NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+HILL_DES_PRSNT=0                        ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+HILL_DES_STAT=0                         ; =HDC_UNAVL, =0x0, msg=GW_C_I2(0x30A), sender=CBC
+HL_DLY_TIME=30                          ; =0x1E, msg=CBC_CFG1(0x3DE), sender=CBC
+HL_WPR=0                                ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+HLDrpStat=0                             ; =NORMAL, =0x0, msg=GW_C_I2(0x30A), sender=CBC
+HP_EngPwrMd_BLACK=1022                  ; =0x3FE, msg=ECM_B10(0x311), sender=CBC
+HP_MODE_SEL=0                           ; =NONE, =0x0, msg=Radio_A1(0x380), sender=ETM
+HRD_TOP_OFF=0                           ; =TOP_ON, =0x0, msg=CBC_I2(0x2FA), sender=CBC
+HS_PRSNT=1                              ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+HSA_CSO_PRSNT=0                         ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+HSA_EN=0                                ; =0x0, msg=GW_C_I2(0x30A), sender=CBC
+HSW_PRSNT=1                             ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+HSW_RQ_TGW=0                            ; =NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+HSW_Stat=0                              ; =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+HSW_Stat_2=0                            ; =HSW_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+HU_CMP=0                                ; =CMP_N, =0x0, msg=DIRECT_INFO(0x35C), sender=ETM
+HYBRID_PT=0                             ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+ICS_btn_0=0                             ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_1=0                             ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_12=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_16=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_17=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_18=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_21=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_22=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_23=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_24=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_25=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_26=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_27=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_28=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_29=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_30=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_31=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_32=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_33=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_36=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_37=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_38=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_40=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_46=0                            ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_5=0                             ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_btn_9=0                             ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_FT_HVAC_MD_Cntrl=0                  ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_FT_HVAC_MD_Cntrl_2=0                ; =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+ICS_KNOB1_DIR=0                         ; =KNOB_NO_CHNG, =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_KNOB1_VAL=0                         ; =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_KNOB2_DIR=0                         ; =KNOB_NO_CHNG, =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_KNOB2_VAL=0                         ; =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_KNOB3_DIR=0                         ; =KNOB_NO_CHNG, =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_KNOB3_VAL=0                         ; =0x0, msg=ICS_KNOBS(0x273), sender=ICS
+ICS_R_L_BlowerDown=0                    ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+ICS_R_L_BlowerUp=0                      ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+ICS_R_L_TempDown=0                      ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+ICS_R_L_TempUp=0                        ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+IGN_OFF_TIME_LNG=4095                   ; =0xFFF, msg=CBC_I5(0x3A2), sender=CBC
+ILL_APRCH_TIME=255                      ; =0xFF, msg=CBC_CFG1(0x3DE), sender=CBC
+ImageDefeatRQSts=0                      ; =0x0, msg=SVC_1(0x2DF), sender=CVPM
+INC_IGN_CYC=0                           ; =0x0, msg=TGW_CFG_11(0x22F), sender=ETM
+INFO1_AUD_ACT=0                         ; =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INFO1_AUD_LVL=0                         ; =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INFO1_AUD_TYP=0                         ; =NONE, =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INFO2_AUD_ACT=0                         ; =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INFO2_AUD_LVL=0                         ; =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INFO2_AUD_TYP=0                         ; =NONE, =0x0, msg=AMP_INFO_CTRL(0x30D), sender=ETM
+INVERTER_ON=0                           ; =0x0, msg=CBC_I1(0x3B2), sender=CBC
+INVERTER_RQ=0                           ; =NOT_PSD, =0x0, msg=TGW_A1(0x302), sender=ETM
+Inst_Fuel_Econ=1023                     ; =0x3FF, msg=GW_C_I_12(0x2FF), sender=CBC
+InteriorCam_Light_Req=0                 ; =OFF, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+ITBM_BrkStyle=0                         ; =LT_ELECT, =0x0, msg=GW_C_I3(0x332), sender=CBC
+IVA=0                                   ; =No_Call, =0x0, msg=GLOB_CON_2(0x356), sender=SGW
+KeyInIgn=0                              ; =KEY_DEF, =0x0, msg=CBC_I4(0x122), sender=CBC
+KeySense_SetSpdOpt=0                    ; =NOT_PROG, =0x0, msg=GW_LIN_C_I4(0x394), sender=CBC
+L_R_AJAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+L_R_Req_PE=0                            ; =NO_REQ, =0x0, msg=PSD_LT_1(0x3C0), sender=PSD_LT
+LANE_SENSE_STAT=0                       ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+LANG_C=1                                ; =US_ENGLISH, =0x1, msg=GW_C_I3(0x332), sender=CBC
+Lat_Pos=0                               ; =0x0, msg=SAT_POS(0x3A4), sender=SGW
+Launch_RPM_Selected_Setting2=0          ; =DEFAULT, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+Launch_Sft_Btn_status=0                 ; =0x0, msg=Radio_A1(0x380), sender=ETM
+LaunchRPMsetting2_ESC=0                 ; =0x0, msg=GW_C_I6(0x252), sender=CBC
+LDW_LEDControlSts=0                     ; =OFF, =0x0, msg=GW_C_I9(0x32C), sender=CBC
+LDWSts=0                                ; =OFF, =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+LHRDoorOnOffSts=3                       ; =SNA, =0x3, msg=CBC_I5(0x3A2), sender=CBC
+LKA_Senstivity=0                        ; =EARLY, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+LKA_Strength=0                          ; =LOW, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+LKAMode=0                               ; =DISPLAY, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+LKASts=0                                ; =OFF, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+LOAD_SHED_LO=0                          ; =0x0, msg=TGW_CFG_11(0x22F), sender=ETM
+Long_Pos=0                              ; =0x0, msg=SAT_POS(0x3A4), sender=SGW
+LowShftToPark=0                         ; =0x0, msg=GW_C_I7(0x340), sender=CBC
+LRW=16383                               ; =0x3FFF, msg=GW_C_I6(0x252), sender=CBC
+LRWS_ST=3                               ; =ERR_INI, =0x3, msg=GW_C_I6(0x252), sender=CBC
+LT_AMB_SENS=255                         ; =0xFF, msg=HVAC_A1(0x30E), sender=HVAC
+LT_DIST=65535                           ; =0xFFFF, msg=GW_C_I5(0x232), sender=CBC
+LTE_STAT=0                              ; =No_Network, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+MAX_AC_PRSNT=0                          ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+MAX_AC_RqCntrl=0                        ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+MAX_AC_RqCntrl_M=0                      ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+MAX_ACSts=1                             ; =ON, =0x1, msg=HVAC_A1(0x30E), sender=HVAC
+ManDispCtrl=0                           ; =0x0, msg=TGW_3I(0x32F), sender=ETM
+Map_Data_Supplier=7                     ; =NA, =0x7, msg=META_DATA(0x391), sender=ETM
+MEM_CSO_PRSNT=0                         ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+Mem_D_Pos_Rq=0                          ; =IDLE, =0x0, msg=MEM_D_POS(0x280), sender=MSM
+Mem_D_Rc_Rq=0                           ; =0x0, msg=MEM_D_POS(0x280), sender=MSM
+Mem_D_Sv_Rq=0                           ; =0x0, msg=MEM_D_POS(0x280), sender=MSM
+Memory_Seat_Tlm_Req=0                   ; =Not_Pressed, =0x0, msg=Radio_A1(0x380), sender=ETM
+MID_LVL=10                              ; =LVL_NTRL, =0xA, msg=AMP_CTRL(0x30F), sender=ETM
+MIL_OnRq=0                              ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+Microphone_Configuration=0              ; =1_mic, =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+Microphone_Tuning_Parameter=0           ; =absent, =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+Microphone_Type=0                       ; =Peiker_300mv, =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+MicrophoneFailSts=1                     ; =Fail_present, =0x1, msg=GLOB_LTM(0x357), sender=ETM
+MirrAdj_P_Dn=0                          ; =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+MirrAdj_P_Lt=0                          ; =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+MirrAdj_P_Rt=0                          ; =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+MirrAdj_P_Up=0                          ; =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+MirrFld_Rq_P=0                          ; =IDLE, =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+MOOD_LGT_INTS=0                         ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+ModeDefrostLeft_M=0                     ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ModeDefrostRight_M=0                    ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ModeFloorLeft_M=0                       ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ModeFloorRight_M=0                      ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ModeVentLeft_M=0                        ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+ModeVentRight_M=0                       ; =Not_Pressed, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+NAV_ARROW=63                            ; =0x3F, msg=DIRECT_INFO(0x35C), sender=ETM
+NAV_ARROW_2=255                         ; =0xFF, msg=DIRECT_INFO2(0x376), sender=ETM
+NAV_GrpNum=0                            ; =0x0, msg=NAV_DATA(0x3BC), sender=ETM
+NAV_GrpTyp=4                            ; =0x4, msg=NAV_DATA(0x3BC), sender=ETM
+NAV_GUIDANCE_MD=0                       ; =0x0, msg=TGW_A1(0x302), sender=ETM
+NAV_HiGrpMark=0                         ; =0x0, msg=NAV_DATA(0x3BC), sender=ETM
+NAV_TEXT=137441050656                   ; =0x2000200020, msg=NAV_DATA(0x3BC), sender=ETM
+NAVPrsnt=1                              ; =0x1, msg=DIRECT_INFO(0x35C), sender=ETM
+NavDataAvailable=0                      ; =Valid_Data_Not_Available, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+NET_CFG_STAT_INT=1                      ; =PROGAMMED, =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NET_CFG_STAT_PT=1                       ; =PROGAMMED, =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ADCM=1                           ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_AHLM=0                           ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_AMP_I=0                          ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_ASBS=0                           ; =Not_Present, =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ASCM=1                           ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_BSM=1                            ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_BSMO=0                           ; =Not_Present, =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_CBC_IN=1                         ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_CBC_PT=1                         ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_CSWM=1                           ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_CVPM=0                           ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_DASM=0                           ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_DCSD=0                           ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_DPDM=0                           ; =Not_Present, =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_DTCM=0                           ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_DVD_CDM=1                        ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_ECM=1                            ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ELSD=0                           ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_EPS=1                            ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ESC=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ESL=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ESM=1                            ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_GPF=0                            ; =Not_Present, =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_HCP=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_HFM_CTM=0                        ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_HVAC=1                           ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_HVAC_R=0                         ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_IC=1                             ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ICS_I=1                          ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_ITM=0                            ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_OCM=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_ORC=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_PTCM=0                           ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_PTS=1                            ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_RBSS=0                           ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_RF_HUB=1                         ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_SCCM=1                           ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_SGW=0                            ; =Not_Present, =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_TBM=0                            ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_TCM=1                            ; =0x1, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_TGW=1                            ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_TPM=0                            ; =0x0, msg=NET_CFG_PT(0x3E4), sender=CBC
+NetCfg_VES2_I=1                         ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_VES3_I=1                         ; =0x1, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetCfg_VRM=0                            ; =0x0, msg=NET_CFG_INT(0x3E3), sender=CBC
+NetConnection=0                         ; =Not_Connected, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+Next_Charge_End_Time_Hr=0               ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Charge_End_Time_Min=0              ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Charge_EndDay=0                    ; =No_Selection, =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Charge_Start_Time_Hr=0             ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Charge_Start_Time_Min=0            ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Charge_StartDay=0                  ; =No_Selection, =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Climate_Day=0                      ; =No_Selection, =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Climate_Time_Hr=0                  ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+Next_Climate_Time_Min=0                 ; =0x0, msg=CHARGE_SCHEDULE_NEXT(0x3BB), sender=CBC
+NM_Data_OK_PTCM=16776960                ; =0xFFFF00, msg=NM_PTCM(0x413), sender=PTCM
+NM_Data_OK_TBM=16776960                 ; =0xFFFF00, msg=NM_TBM(0x42B), sender=SGW
+NM_Data_OK_TTM=16776960                 ; =0xFFFF00, msg=NM_TTM(0x432), sender=TTM
+NM_Mode_AMP=255                         ; =SNA, =0xFF, msg=NM_AMP(0x43E), sender=AMP
+NM_Mode_ANC=255                         ; =SNA, =0xFF, msg=NM_ANC(0x425), sender=ANC
+NM_Mode_CBC=255                         ; =SNA, =0xFF, msg=NM_CBC(0x401), sender=CBC
+NM_Mode_CSWM=255                        ; =SNA, =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+NM_Mode_DCM_DR=255                      ; =SNA, =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Mode_DCM_PASS=255                    ; =SNA, =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Mode_DCM_RL=255                      ; =SNA, =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Mode_DCM_RR=255                      ; =SNA, =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Mode_DCSD=255                        ; =SNA, =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Mode_DTV=255                         ; =SNA, =0xFF, msg=NM_DTV(0x434), sender=DTV
+NM_Mode_DVD=253                         ; =RING, =0xFD, msg=NM_DVD(0x436), sender=DVD
+NM_Mode_FSM=255                         ; =SNA, =0xFF, msg=NM_FSM(0x40D), sender=FSM
+NM_Mode_HVAC=255                        ; =SNA, =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+NM_Mode_HVAC_R=255                      ; =SNA, =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Mode_ICS_I=255                       ; =SNA, =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Mode_ICS_R=255                       ; =SNA, =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Mode_ITM=0                           ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Mode_MSM=255                         ; =SNA, =0xFF, msg=NM_MSM(0x40A), sender=MSM
+NM_Mode_MSM_PASS=255                    ; =SNA, =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Mode_PLG=255                         ; =SNA, =0xFF, msg=NM_PLG(0x40C), sender=PLG
+NM_Mode_PSD_LT=255                      ; =SNA, =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Mode_PSD_RT=255                      ; =SNA, =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Mode_PTCM=255                        ; =SNA, =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+NM_Mode_TBM=255                         ; =SNA, =0xFF, msg=NM_TBM(0x42B), sender=SGW
+NM_Mode_TGW=252                         ; =LHOM, =0xFC, msg=NM_TGW(0x43F), sender=ETM
+NM_Mode_TTM=255                         ; =SNA, =0xFF, msg=NM_TTM(0x432), sender=TTM
+NM_Mode_UPFM=255                        ; =SNA, =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Mode_VES2=255                        ; =SNA, =0xFF, msg=NM_VES2(0x437), sender=VES2
+NM_Mode_VES3=255                        ; =SNA, =0xFF, msg=NM_VES3(0x43B), sender=VES3
+NM_Mode_VRM=255                         ; =SNA, =0xFF, msg=NM_VRM(0x42D), sender=SGW
+NM_Sleep_Ack_AMP=1                      ; =0x1, msg=NM_AMP(0x43E), sender=AMP
+NM_Sleep_Ack_ANC=1                      ; =0x1, msg=NM_ANC(0x425), sender=ANC
+NM_Sleep_Ack_CBC=1                      ; =0x1, msg=NM_CBC(0x401), sender=CBC
+NM_Sleep_Ack_CSWM=1                     ; =0x1, msg=NM_CSWM(0x412), sender=CSWM
+NM_Sleep_Ack_DCM_DR=1                   ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Sleep_Ack_DCM_PASS=1                 ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Sleep_Ack_DCM_RL=1                   ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Sleep_Ack_DCM_RR=1                   ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Sleep_Ack_DCSD=1                     ; =0x1, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Sleep_Ack_DTV=1                      ; =0x1, msg=NM_DTV(0x434), sender=DTV
+NM_Sleep_Ack_DVD=1                      ; =0x1, msg=NM_DVD(0x436), sender=DVD
+NM_Sleep_Ack_FSM=1                      ; =0x1, msg=NM_FSM(0x40D), sender=FSM
+NM_Sleep_Ack_HVAC=1                     ; =0x1, msg=NM_HVAC(0x403), sender=HVAC
+NM_Sleep_Ack_HVAC_R=1                   ; =0x1, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Sleep_Ack_ICS_I=1                    ; =0x1, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Sleep_Ack_ICS_R=1                    ; =0x1, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Sleep_Ack_ITM=0                      ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Sleep_Ack_MSM=1                      ; =0x1, msg=NM_MSM(0x40A), sender=MSM
+NM_Sleep_Ack_MSM_PASS=1                 ; =0x1, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Sleep_Ack_PLG=1                      ; =0x1, msg=NM_PLG(0x40C), sender=PLG
+NM_Sleep_Ack_PSD_LT=1                   ; =0x1, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Sleep_Ack_PSD_RT=1                   ; =0x1, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Sleep_Ack_PTCM=1                     ; =0x1, msg=NM_PTCM(0x413), sender=PTCM
+NM_Sleep_Ack_TBM=1                      ; =0x1, msg=NM_TBM(0x42B), sender=SGW
+NM_Sleep_Ack_TGW=0                      ; =0x0, msg=NM_TGW(0x43F), sender=ETM
+NM_Sleep_Ack_TTM=1                      ; =0x1, msg=NM_TTM(0x432), sender=TTM
+NM_Sleep_Ack_UPFM=1                     ; =0x1, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Sleep_Ack_VES2=1                     ; =0x1, msg=NM_VES2(0x437), sender=VES2
+NM_Sleep_Ack_VES3=1                     ; =0x1, msg=NM_VES3(0x43B), sender=VES3
+NM_Sleep_Ack_VRM=1                      ; =0x1, msg=NM_VRM(0x42D), sender=SGW
+NM_Sleep_Ind_AMP=1                      ; =0x1, msg=NM_AMP(0x43E), sender=AMP
+NM_Sleep_Ind_ANC=1                      ; =0x1, msg=NM_ANC(0x425), sender=ANC
+NM_Sleep_Ind_CBC=1                      ; =0x1, msg=NM_CBC(0x401), sender=CBC
+NM_Sleep_Ind_CSWM=1                     ; =0x1, msg=NM_CSWM(0x412), sender=CSWM
+NM_Sleep_Ind_DCM_DR=1                   ; =0x1, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Sleep_Ind_DCM_PASS=1                 ; =0x1, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Sleep_Ind_DCM_RL=1                   ; =0x1, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Sleep_Ind_DCM_RR=1                   ; =0x1, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Sleep_Ind_DCSD=1                     ; =0x1, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Sleep_Ind_DTV=1                      ; =0x1, msg=NM_DTV(0x434), sender=DTV
+NM_Sleep_Ind_DVD=1                      ; =0x1, msg=NM_DVD(0x436), sender=DVD
+NM_Sleep_Ind_FSM=1                      ; =0x1, msg=NM_FSM(0x40D), sender=FSM
+NM_Sleep_Ind_HVAC=1                     ; =0x1, msg=NM_HVAC(0x403), sender=HVAC
+NM_Sleep_Ind_HVAC_R=1                   ; =0x1, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Sleep_Ind_ICS_I=1                    ; =0x1, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Sleep_Ind_ICS_R=1                    ; =0x1, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Sleep_Ind_ITM=0                      ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Sleep_Ind_MSM=1                      ; =0x1, msg=NM_MSM(0x40A), sender=MSM
+NM_Sleep_Ind_MSM_PASS=1                 ; =0x1, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Sleep_Ind_PLG=1                      ; =0x1, msg=NM_PLG(0x40C), sender=PLG
+NM_Sleep_Ind_PSD_LT=1                   ; =0x1, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Sleep_Ind_PSD_RT=1                   ; =0x1, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Sleep_Ind_PTCM=1                     ; =0x1, msg=NM_PTCM(0x413), sender=PTCM
+NM_Sleep_Ind_TBM=1                      ; =0x1, msg=NM_TBM(0x42B), sender=SGW
+NM_Sleep_Ind_TGW=1                      ; =0x1, msg=NM_TGW(0x43F), sender=ETM
+NM_Sleep_Ind_TTM=1                      ; =0x1, msg=NM_TTM(0x432), sender=TTM
+NM_Sleep_Ind_UPFM=1                     ; =0x1, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Sleep_Ind_VES2=1                     ; =0x1, msg=NM_VES2(0x437), sender=VES2
+NM_Sleep_Ind_VES3=1                     ; =0x1, msg=NM_VES3(0x43B), sender=VES3
+NM_Sleep_Ind_VRM=1                      ; =0x1, msg=NM_VRM(0x42D), sender=SGW
+NM_Successor_AMP=255                    ; =0xFF, msg=NM_AMP(0x43E), sender=AMP
+NM_Successor_ANC=255                    ; =0xFF, msg=NM_ANC(0x425), sender=ANC
+NM_Successor_CBC=255                    ; =0xFF, msg=NM_CBC(0x401), sender=CBC
+NM_Successor_CSWM=255                   ; =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+NM_Successor_DCM_DR=255                 ; =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Successor_DCM_PASS=255               ; =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Successor_DCM_RL=255                 ; =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Successor_DCM_RR=255                 ; =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Successor_DCSD=255                   ; =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Successor_DTV=255                    ; =0xFF, msg=NM_DTV(0x434), sender=DTV
+NM_Successor_DVD=63                     ; =0x3F, msg=NM_DVD(0x436), sender=DVD
+NM_Successor_FSM=255                    ; =0xFF, msg=NM_FSM(0x40D), sender=FSM
+NM_Successor_HVAC=255                   ; =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+NM_Successor_HVAC_R=255                 ; =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Successor_ICS_I=255                  ; =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Successor_ICS_R=255                  ; =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Successor_ITM=0                      ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Successor_MSM=255                    ; =0xFF, msg=NM_MSM(0x40A), sender=MSM
+NM_Successor_MSM_PASS=255               ; =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Successor_PLG=255                    ; =0xFF, msg=NM_PLG(0x40C), sender=PLG
+NM_Successor_PSD_LT=255                 ; =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Successor_PSD_RT=255                 ; =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Successor_PTCM=255                   ; =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+NM_Successor_TBM=255                    ; =0xFF, msg=NM_TBM(0x42B), sender=SGW
+NM_Successor_TGW=63                     ; =0x3F, msg=NM_TGW(0x43F), sender=ETM
+NM_Successor_TTM=255                    ; =0xFF, msg=NM_TTM(0x432), sender=TTM
+NM_Successor_UPFM=255                   ; =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Successor_VES2=255                   ; =0xFF, msg=NM_VES2(0x437), sender=VES2
+NM_Successor_VES3=255                   ; =0xFF, msg=NM_VES3(0x43B), sender=VES3
+NM_Successor_VRM=255                    ; =0xFF, msg=NM_VRM(0x42D), sender=SGW
+NM_Ud_Launch_AMP=63                     ; =SNA, =0x3F, msg=NM_AMP(0x43E), sender=AMP
+NM_Ud_Launch_ANC=63                     ; =SNA, =0x3F, msg=NM_ANC(0x425), sender=ANC
+NM_Ud_Launch_CBC=63                     ; =SNA, =0x3F, msg=NM_CBC(0x401), sender=CBC
+NM_Ud_Launch_CSWM=63                    ; =SNA, =0x3F, msg=NM_CSWM(0x412), sender=CSWM
+NM_Ud_Launch_DCM_DR=63                  ; =SNA, =0x3F, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Ud_Launch_DCM_PASS=63                ; =SNA, =0x3F, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Ud_Launch_DCM_RL=63                  ; =SNA, =0x3F, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Ud_Launch_DCM_RR=63                  ; =SNA, =0x3F, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Ud_Launch_DCSD=63                    ; =SNA, =0x3F, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Ud_Launch_DVD=63                     ; =SNA, =0x3F, msg=NM_DVD(0x436), sender=DVD
+NM_Ud_Launch_FSM=63                     ; =SNA, =0x3F, msg=NM_FSM(0x40D), sender=FSM
+NM_Ud_Launch_HVAC=63                    ; =SNA, =0x3F, msg=NM_HVAC(0x403), sender=HVAC
+NM_Ud_Launch_HVAC_R=63                  ; =SNA, =0x3F, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Ud_Launch_ICS_I=63                   ; =SNA, =0x3F, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Ud_Launch_ICS_R=63                   ; =SNA, =0x3F, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Ud_Launch_ITM=0                      ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Ud_Launch_MSM=63                     ; =SNA, =0x3F, msg=NM_MSM(0x40A), sender=MSM
+NM_Ud_Launch_MSM_PASS=63                ; =SNA, =0x3F, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Ud_Launch_PLG=63                     ; =SNA, =0x3F, msg=NM_PLG(0x40C), sender=PLG
+NM_Ud_Launch_PSD_LT=63                  ; =SNA, =0x3F, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Ud_Launch_PSD_RT=63                  ; =SNA, =0x3F, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Ud_Launch_PTCM=63                    ; =SNA, =0x3F, msg=NM_PTCM(0x413), sender=PTCM
+NM_Ud_Launch_TBM=63                     ; =SNA, =0x3F, msg=NM_TBM(0x42B), sender=SGW
+NM_Ud_Launch_TGW=63                     ; =SNA, =0x3F, msg=NM_TGW(0x43F), sender=ETM
+NM_Ud_Launch_TTM=63                     ; =SNA, =0x3F, msg=NM_TTM(0x432), sender=TTM
+NM_Ud_Launch_UPFM=63                    ; =SNA, =0x3F, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Ud_Launch_VES2=63                    ; =SNA, =0x3F, msg=NM_VES2(0x437), sender=VES2
+NM_Ud_Launch_VES3=63                    ; =SNA, =0x3F, msg=NM_VES3(0x43B), sender=VES3
+NM_Ud_Launch_VRM=63                     ; =SNA, =0x3F, msg=NM_VRM(0x42D), sender=SGW
+NM_Ud_Srv_AMP=255                       ; =0xFF, msg=NM_AMP(0x43E), sender=AMP
+NM_Ud_Srv_ANC=255                       ; =0xFF, msg=NM_ANC(0x425), sender=ANC
+NM_Ud_Srv_CBC=255                       ; =0xFF, msg=NM_CBC(0x401), sender=CBC
+NM_Ud_Srv_CSWM=255                      ; =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+NM_Ud_Srv_DCM_DR=255                    ; =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+NM_Ud_Srv_DCM_PASS=255                  ; =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+NM_Ud_Srv_DCM_RL=255                    ; =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+NM_Ud_Srv_DCM_RR=255                    ; =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+NM_Ud_Srv_DCSD=255                      ; =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+NM_Ud_Srv_DTV=255                       ; =0xFF, msg=NM_DTV(0x434), sender=DTV
+NM_Ud_Srv_DVD=15                        ; =0xF, msg=NM_DVD(0x436), sender=DVD
+NM_Ud_Srv_FSM=255                       ; =0xFF, msg=NM_FSM(0x40D), sender=FSM
+NM_Ud_Srv_HVAC=255                      ; =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+NM_Ud_Srv_HVAC_R=255                    ; =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+NM_Ud_Srv_ICS_I=255                     ; =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+NM_Ud_Srv_ICS_R=255                     ; =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+NM_Ud_Srv_ITM=0                         ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+NM_Ud_Srv_MSM=255                       ; =0xFF, msg=NM_MSM(0x40A), sender=MSM
+NM_Ud_Srv_MSM_PASS=255                  ; =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+NM_Ud_Srv_PLG=255                       ; =0xFF, msg=NM_PLG(0x40C), sender=PLG
+NM_Ud_Srv_PSD_LT=255                    ; =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+NM_Ud_Srv_PSD_RT=255                    ; =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+NM_Ud_Srv_PTCM=255                      ; =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+NM_Ud_Srv_TBM=255                       ; =0xFF, msg=NM_TBM(0x42B), sender=SGW
+NM_Ud_Srv_TGW=255                       ; =0xFF, msg=NM_TGW(0x43F), sender=ETM
+NM_Ud_Srv_TTM=255                       ; =0xFF, msg=NM_TTM(0x432), sender=TTM
+NM_Ud_Srv_UPFM=255                      ; =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+NM_Ud_Srv_VES2=255                      ; =0xFF, msg=NM_VES2(0x437), sender=VES2
+NM_Ud_Srv_VES3=255                      ; =0xFF, msg=NM_VES3(0x43B), sender=VES3
+NM_Ud_Srv_VRM=255                       ; =0xFF, msg=NM_VRM(0x42D), sender=SGW
+NUM_OF_LANES_DRV_DIR=0                  ; =Wrong_Direction, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+Nw_Id_AMP=255                           ; =SNA, =0xFF, msg=NM_AMP(0x43E), sender=AMP
+Nw_Id_ANC=255                           ; =SNA, =0xFF, msg=NM_ANC(0x425), sender=ANC
+Nw_Id_CBC=255                           ; =SNA, =0xFF, msg=NM_CBC(0x401), sender=CBC
+Nw_Id_CSWM=255                          ; =SNA, =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+Nw_Id_DCM_DR=255                        ; =SNA, =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+Nw_Id_DCM_PASS=255                      ; =SNA, =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+Nw_Id_DCM_RL=255                        ; =SNA, =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+Nw_Id_DCM_RR=255                        ; =SNA, =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+Nw_Id_DCSD=255                          ; =SNA, =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+Nw_Id_DTV=255                           ; =SNA, =0xFF, msg=NM_DTV(0x434), sender=DTV
+Nw_Id_DVD=0                             ; =POWERTRAIN, =0x0, msg=NM_DVD(0x436), sender=DVD
+Nw_Id_FSM=255                           ; =SNA, =0xFF, msg=NM_FSM(0x40D), sender=FSM
+Nw_Id_HVAC=255                          ; =SNA, =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+Nw_Id_HVAC_R=255                        ; =SNA, =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+Nw_Id_ICS_I=255                         ; =SNA, =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+Nw_Id_ICS_R=255                         ; =SNA, =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+Nw_Id_ITM=0                             ; =POWERTRAIN, =0x0, msg=NM_ITM(0x40F), sender=ITM
+Nw_Id_MSM=255                           ; =SNA, =0xFF, msg=NM_MSM(0x40A), sender=MSM
+Nw_Id_MSM_PASS=255                      ; =SNA, =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+Nw_Id_PLG=255                           ; =SNA, =0xFF, msg=NM_PLG(0x40C), sender=PLG
+Nw_Id_PSD_LT=255                        ; =SNA, =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+Nw_Id_PSD_RT=255                        ; =SNA, =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+Nw_Id_PTCM=255                          ; =SNA, =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+Nw_Id_TBM=255                           ; =SNA, =0xFF, msg=NM_TBM(0x42B), sender=SGW
+Nw_Id_TGW=255                           ; =SNA, =0xFF, msg=NM_TGW(0x43F), sender=ETM
+Nw_Id_TTM=255                           ; =SNA, =0xFF, msg=NM_TTM(0x432), sender=TTM
+Nw_Id_UPFM=255                          ; =SNA, =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+Nw_Id_VES2=255                          ; =SNA, =0xFF, msg=NM_VES2(0x437), sender=VES2
+Nw_Id_VES3=255                          ; =SNA, =0xFF, msg=NM_VES3(0x43B), sender=VES3
+Nw_Id_VRM=255                           ; =SNA, =0xFF, msg=NM_VRM(0x42D), sender=SGW
+OC_Dsbl_LF=0                            ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+OC_Dsbl_LR=0                            ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+OC_Dsbl_RF=0                            ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+OC_Dsbl_RR=0                            ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+ODO=16777215                            ; =0xFFFFFF, msg=GW_C4(0x3D2), sender=CBC
+OIL_LEVEL_STAT=0                        ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+OIL_PRESSURE_STAT=0                     ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+OIL_TEMP_STAT=0                         ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+OVER_TEMP_STAT=0                        ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+PADL_MODE_CFG_STAT=0                    ; =NONE, =0x0, msg=CBC_I6(0x305), sender=CBC
+PANEL_INTS=0                            ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+PARK_BRK_EGD=0                          ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+PARK_LMP_ON=0                           ; =0x0, msg=CBC_I1(0x3B2), sender=CBC
+PAS_SUN_SNSR=2047                       ; =0x7FF, msg=HVAC_A1(0x30E), sender=HVAC
+Paddles_DrvMd_CfgSts=0                  ; =NONE, =0x0, msg=CBC_I6(0x305), sender=CBC
+PaddlesModeReq=0                        ; =NONE, =0x0, msg=Radio_A1(0x380), sender=ETM
+PaddlesModeSts=0                        ; =NONE, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+PadSts=0                                ; =No_Charge, =0x0, msg=GW_LIN_C_I6(0x39E), sender=CBC
+PathIdx=0                               ; =Map_data_not_valid_1, =0x0, msg=CURRENT_SEGMENT(0x338), sender=ETM
+PE_ENABLE=0                             ; =0x0, msg=RFHUB_A2(0x1C0), sender=CBC
+PE_Prsnt=0                              ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+PEBState=0                              ; =Off, =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+PHONE_INFO_IN_CLUSTER_ENABLED=0         ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+Phone_Popup_setting_active=0            ; =0x0, msg=TGW_MSG(0x317), sender=ETM
+Pitch_Angle=90                          ; =0x5A, msg=GW_C_I_10(0x24E), sender=CBC
+PLG_Stat=0                              ; =OK, =0x0, msg=PLG_A1(0x34A), sender=PLG
+PN14_LS_Actv=0                          ; =0x0, msg=PN14_STAT(0x248), sender=CBC
+PN14_LS_Lvl7=0                          ; =0x0, msg=PN14_STAT(0x248), sender=CBC
+PNC_ALM_ACT=0                           ; =0x0, msg=CBC_I1(0x3B2), sender=CBC
+PoliceStlthMdAct=0                      ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+PowerUnit=0                             ; =KW, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+PPPA_STAT=0                             ; =OFF, =0x0, msg=GW_C_I9(0x32C), sender=CBC
+PRESET_CFG=0                            ; =PRESET_NONE, =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+PRND_STAT=0                             ; =LVR_P, =0x0, msg=GW_C_I3(0x332), sender=CBC
+PRNDL_DISP=255                          ; =SNA, =0xFF, msg=GW_C_I3(0x332), sender=CBC
+PressureUnit=0                          ; =KPA, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+PrivacyMode=0                           ; =Not_Active, =0x0, msg=SERVICE_SETUP(0x3A5), sender=SGW
+PrivacyModeReq=0                        ; =Off, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+PrplsnSysAtv=0                          ; =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+PS_SysType=0                            ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+PSD_LT_DrStat=15                        ; =SNA, =0xF, msg=PSD_LT_1(0x3C0), sender=PSD_LT
+PSD_RT_DrStat=15                        ; =SNA, =0xF, msg=PSD_RT_1(0x3C1), sender=PSD_RT
+PSG_AJAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+PSI_EnableSts=0                         ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+PSI_Gr1_RPM_SET=0                       ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_Gr2_RPM_SET=0                       ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_Gr3_RPM_SET=0                       ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_Gr4_RPM_SET=0                       ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_Gr5_RPM_SET=0                       ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_RPM_Reset=0                         ; =0x0, msg=Radio_A1(0x380), sender=ETM
+PSI_Rq=0                                ; =NONE, =0x0, msg=Radio_A1(0x380), sender=ETM
+PsngrDoorOnOffSts=3                     ; =SNA, =0x3, msg=CBC_I5(0x3A2), sender=CBC
+PTS_AlrRC=0                             ; =PTS_ALR_NOD, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_AlrRL=0                             ; =PTS_ALR_NOD, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_AlrRR=0                             ; =PTS_ALR_NOD, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_CFG_STAT=2                          ; =SND_DISP, =0x2, msg=GW_C_I3(0x332), sender=CBC
+PTS_CFG_STAT_TeenKey=0                  ; =OFF, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_CHIME_REP_RATE=0                    ; =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_CHIME_TYPE=0                        ; =NONE, =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_FT_VOL=1                            ; =MED, =0x1, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_FT_VOL_TeenKey=1                    ; =MED, =0x1, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_LF_CHIME_RQ=0                       ; =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_LR_CHIME_RQ=0                       ; =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_RF_CHIME_RQ=0                       ; =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_Rqst_Stat=0                         ; =OFF, =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+PTS_RR_CHIME_RQ=0                       ; =0x0, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_RR_VOL=1                            ; =MED, =0x1, msg=PTS_CHIME_STAT(0x339), sender=CBC
+PTS_RR_VOL_TeenKey=1                    ; =MED, =0x1, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+PTS_STAT=0                              ; =OFF, =0x0, msg=GW_C_I7(0x340), sender=CBC
+PW_Adj_P=0                              ; =NPSD, =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+PW_Adj_RL=0                             ; =NPSD, =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+PW_Adj_RR=0                             ; =NPSD, =0x0, msg=Win_Mirr_Adj(0x2B0), sender=DCM_DR
+PW_LKOUT=0                              ; =0x0, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+PWR_DR_LK_PRSNT=1                       ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+PWR_INV_PRSNT=1                         ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+PwrTop_Pos=0                            ; =DEF, =0x0, msg=PTCM_1(0x310), sender=PTCM
+phone_pop_up_active=0                   ; =0x0, msg=TGW_3I(0x32F), sender=ETM
+R_AC_STAT_M=0                           ; =OFF, =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_ATC_TEMP=75                           ; =0x4B, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_AUTO_STAT_M=0                         ; =OFF, =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_AUTO_SW_RQ=0                          ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_AUTO_SW_RQ_M=0                        ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+R_DEF_SW_RQ=0                           ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_DEF_SW_RQ_M=0                         ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+R_DRV_ATC_TEMP_M=0                      ; =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_FOG_RQ=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+R_HVAC_BLW_FN_SP=21                     ; =0x15, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_HVAC_BlwrSpd_M=127                    ; =0x7F, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_HVAC_ControlSatus_M=0                 ; =HVAC_CTRL_OFF, =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_HVAC_CTRL_STAT=1                      ; =BLW_AUTO_MD_AUTO, =0x1, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_HVAC_LkOut=1                          ; =0x1, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_HVAC_LockStatus_M=0                   ; =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_HVAC_MD_RQ=0                          ; =NO_CHANGE, =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_HVAC_MD_RQ_M=7                        ; =SNA, =0x7, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+R_HVAC_MD_STAT=3                        ; =PNL_BI_LVL_MID_MD, =0x3, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_HVAC_ModeStatus_M=7                   ; =SNA, =0x7, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_HVAC_SW_RQ=0                          ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_HVAC_SW_RQ_M=0                        ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+R_LK_SW_RQ=0                            ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_LK_SW_RQ_M=0                          ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+R_MTC_TEMP=127                          ; =0x7F, msg=R_HVAC_ICS_STAT(0x37A), sender=HVAC
+R_PSG_ATC_TEMP_M=0                      ; =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_R_AJAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+R_R_Req_PE=0                            ; =NO_REQ, =0x0, msg=PSD_RT_1(0x3C1), sender=PSD_RT
+R_SYNC_STAT_M=0                         ; =0x0, msg=HVAC_R_A1_M(0x329), sender=HVAC_R
+R_SYNC_SW_RQ=0                          ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+R_SYNC_SW_RQ_M=0                        ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+RADIO_W_GYRO=1                          ; =0x1, msg=DIRECT_INFO(0x35C), sender=ETM
+RadioTractionControl_Ind=0              ; =OFF, =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+RDY_DRV_STAT_CSO=0                      ; =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+RECIRC_STAT=0                           ; =OFF, =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+RECIRC_SW_RQ=0                          ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+RECIRC_SW_RQ_M=0                        ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+REV_GEAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+Rear_ICS_HVACPowerCntrl=0               ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+RearModeCntrl=0                         ; =0x0, msg=ICS_R1(0x271), sender=ICS_R
+RemStActv=0                             ; =0x0, msg=CBC_I4(0x122), sender=CBC
+RemStEnbl_DCS=1                         ; =0x1, msg=CSWM_A1(0x31E), sender=CSWM
+RemStNrmlStEnbl_DCS=0                   ; =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+RemTmHours=255                          ; =0xFF, msg=NAV_TRIP(0x35F), sender=ETM
+RemTmMinutes=255                        ; =0xFF, msg=NAV_TRIP(0x35F), sender=ETM
+RestoreApp=0                            ; =Not_Active, =0x0, msg=SERVICE_SETUP(0x3A5), sender=SGW
+RestoreDefaultSetting=0                 ; =Not_Active, =0x0, msg=SERVICE_SETUP(0x3A5), sender=SGW
+RestoreDefaultSettingReq=0              ; =Not_Active, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+RFFuncReq=0                             ; =NO_BASIC_REQUEST, =0x0, msg=RFHUB_A2(0x1C0), sender=CBC
+RFReq=0                                 ; =REQUESTOR_DEFAULT, =0x0, msg=RFHUB_A2(0x1C0), sender=CBC
+RHRDoorOnOffSts=3                       ; =SNA, =0x3, msg=CBC_I5(0x3A2), sender=CBC
+RKE_MEM=0                               ; =0x0, msg=MSM_A1(0x2F0), sender=MSM
+RKE_ONE_PRESS_ENBL=0                    ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+RL_HEAT_STAT=0                          ; =HS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+RL_HndlSw=0                             ; =0x0, msg=DCM_RL_1(0x26E), sender=DCM_RL
+RL_Lvl=254                              ; =NOT_INIT, =0xFE, msg=GW_C_I_11(0x2E0), sender=CBC
+Roll_Angle=90                           ; =0x5A, msg=GW_C_I_10(0x24E), sender=CBC
+RQ_DISP_INTS=200                        ; =0xC8, msg=TGW_3I(0x32F), sender=ETM
+RR_DR_UNLKD=0                           ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+RR_HEAT_STAT=0                          ; =HS_OFF, =0x0, msg=CSWM_A1(0x31E), sender=CSWM
+RR_HndlSw=0                             ; =0x0, msg=DCM_RR_1(0x26F), sender=DCM_RR
+RR_Lvl=254                              ; =NOT_INIT, =0xFE, msg=GW_C_I_11(0x2E0), sender=CBC
+RR_PTS_StopControlSts=0                 ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+RR_PTS_StopControlStsTeen=0             ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+RrCameraPrsnt=0                         ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+RT_DIST=65535                           ; =0xFFFF, msg=GW_C_I5(0x232), sender=CBC
+RVC_CVPM_SGRID_RespSts=0                ; =0x0, msg=SVC_1(0x2DF), sender=CVPM
+RVC_SK_PRSNT=1                          ; =0x1, msg=EcuCfg16(0x2C5), sender=CBC
+SBR_MuteRq=0                            ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+SCCActv=0                               ; =0x0, msg=CBC_I4(0x122), sender=CBC
+SCV_LVL=0                               ; =OFF, =0x0, msg=AMP_CTRL(0x30F), sender=ETM
+Schedule_Confirmed1=0                   ; =DISABLE, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Schedule_Confirmed2=0                   ; =DISABLE, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Schedule_Confirmed3=0                   ; =DISABLE, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+Schedule_Day1=0                         ; =No_Selection, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Schedule_Day1_Sts=0                     ; =No_Selection, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Schedule_Day2=0                         ; =No_Selection, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Schedule_Day2_Sts=0                     ; =No_Selection, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Schedule_Day3=0                         ; =No_Selection, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Schedule_Day3_Sts=0                     ; =No_Selection, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+Schedule_Type1=0                        ; =No_Selection, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Schedule_Type1_Sts=0                    ; =No_Selection, =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Schedule_Type2=0                        ; =No_Selection, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Schedule_Type2_Sts=0                    ; =No_Selection, =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Schedule_Type3=0                        ; =No_Selection, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Schedule_Type3_Sts=0                    ; =No_Selection, =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+SD_LO_Status=0                          ; =0x0, msg=CBC_I6(0x305), sender=CBC
+SDAR_TRVL_LNK_PRSNT=0                   ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+SEEK=0                                  ; =SEEK_NONE, =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+SERVICE_ACC_STAT=0                      ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+SERVICE_STAT=0                          ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Seatbelt_Setting=0                      ; =Inactive, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+Seatbelt_Strength=0                     ; =LOW, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+SelSpdSts=3                             ; =SNA, =0x3, msg=GW_C_I_11(0x2E0), sender=CBC
+ServiceModeSts=0                        ; =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+SHFT_PROG=255                           ; =SNA, =0xFF, msg=GW_C_I2(0x30A), sender=CBC
+SHIP_STAT=3                             ; =NOT_PROG, =0x3, msg=CBC_I1(0x3B2), sender=CBC
+Sig_Stat=0                              ; =LEVEL_0, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+SLD_DR_Chime_Enbl=0                     ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+SOSFailSts=0                            ; =Fail_not_present, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+SOUND_LK_1ST_2ND=3                      ; =SNA, =0x3, msg=CBC_CFG1(0x3DE), sender=CBC
+SOUND_RS=0                              ; =0x0, msg=CBC_CFG1(0x3DE), sender=CBC
+SpdUnits=0                              ; =km_h, =0x0, msg=META_DATA(0x391), sender=ETM
+Speed_Sign_Shape=0                      ; =Not_Detected, =0x0, msg=CAM_MAP_FUSION(0x3C5), sender=CBC
+SpeedUnit=0                             ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+Splashscreen_Type=4                     ; =0x4, msg=EcuCfg3(0x3F2), sender=CBC
+SpSt_Pad1=0                             ; =UN_PSD, =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+SpSt_Pad2=0                             ; =UN_PSD, =0x0, msg=ICS_MSG(0x2D3), sender=ICS
+SpStPrsnt=0                             ; =0x0, msg=GW_C_I2(0x30A), sender=CBC
+SpStSwStat=0                            ; =OFF, =0x0, msg=GW_C_I7(0x340), sender=CBC
+SRT_1000ftTm_B=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_1000ftTm_C=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_1000ftTm_L=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_1000ftTmB=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_1000ftTmC=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_1000ftTmL=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTm_B=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTm_C=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTm_L=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTmB=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTmC=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_100mphTmL=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTm_B=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTm_C=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTm_L=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTmB=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTmC=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_330ftTmL=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTm_B=511                        ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTm_C=511                        ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTm_L=511                        ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTmB=511                         ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTmC=511                         ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60ftTmL=511                         ; =0x1FF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTm_B=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTm_C=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTm_L=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTmB=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTmC=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_60mphTmL=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistB_M=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistB_US=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistC_M=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistC_US=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistL_M=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkDistL_US=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdB_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdB_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdC_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdC_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdL_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkSpdL_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTm_B=255                         ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTm_C=255                         ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTm_L=255                         ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTmB=255                          ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTmC=255                          ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_BrkTmL=255                          ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_CTRL3=15                            ; =0xF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdB_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdB_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdC_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdC_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdL_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_EthSpdL_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTm_B=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTm_C=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTm_L=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTmB=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTmC=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_eighthTmL=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdB_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdB_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdC_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdC_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdL_M=255                       ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_QrtSpdL_US=255                      ; =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTm_B=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTm_C=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTm_L=255                     ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTmB=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTmC=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_quarterTmL=255                      ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTm_B=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTm_C=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTm_L=255                       ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTmB=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTmC=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SRT_ReactTmL=255                        ; =SNA, =0xFF, msg=IC_SRT(0x3CF), sender=CBC
+SSID=0                                  ; =Not_Received, =0x0, msg=HU_ACK(0x5EF), sender=ETM
+SSID_CHAR_1=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_2=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_3=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_4=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_5=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_6=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_CHAR_7=0                           ; =0x0, msg=SSID(0x35A), sender=SGW
+SSID_FRAME_ID=0                         ; =Frame1, =0x0, msg=SSID(0x35A), sender=SGW
+SSID_LTM_CHAR_1=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_2=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_3=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_4=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_5=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_6=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_CHAR_7=0                       ; =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_FRAME_ID=0                     ; =Frame1, =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_LTM_Total_Frame_Number=0           ; =Frame1, =0x0, msg=SSID_LTM(0x2B5), sender=ETM
+SSID_Total_Frame_Number=0               ; =Frame1, =0x0, msg=SSID(0x35A), sender=SGW
+STFAFtAlertPress=255                    ; =0xFF, msg=Radio_A4(0x12E), sender=ETM
+STFARrAlertPress=255                    ; =0xFF, msg=Radio_A4(0x12E), sender=ETM
+STFASysEnableFault=0                    ; =Absent, =0x0, msg=GW_C_I_13(0x2B2), sender=CBC
+STOP_START_STAT=0                       ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+Start_Time_Hr1=0                        ; =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Start_Time_Hr1_Sts=0                    ; =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Start_Time_Hr2=0                        ; =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Start_Time_Hr2_Sts=0                    ; =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Start_Time_Hr3=0                        ; =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Start_Time_Hr3_Sts=0                    ; =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+Start_Time_Min1=0                       ; =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Start_Time_Min1_Sts=0                   ; =0x0, msg=HCP_Schedule1(0x3B5), sender=CBC
+Start_Time_Min2=0                       ; =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Start_Time_Min2_Sts=0                   ; =0x0, msg=HCP_Schedule2(0x3B6), sender=CBC
+Start_Time_Min3=0                       ; =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+Start_Time_Min3_Sts=0                   ; =0x0, msg=HCP_Schedule3(0x3B7), sender=CBC
+StTyp=0                                 ; =ST_NOT_ACT, =0x0, msg=CBC_I4(0x122), sender=CBC
+SUN_SHD_RQ=0                            ; =0x0, msg=TGW_A1(0x302), sender=ETM
+SURR_AVAIL=0                            ; =0x0, msg=AMP_A1(0x354), sender=AMP
+SURR_PRSNT=0                            ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+Submit_Schedule1=0                      ; =No_Change, =0x0, msg=HU_Schedule1(0x3B8), sender=ETM
+Submit_Schedule2=0                      ; =No_Change, =0x0, msg=HU_Schedule2(0x3B9), sender=ETM
+Submit_Schedule3=0                      ; =No_Change, =0x0, msg=HU_Schedule3(0x3BA), sender=ETM
+SVC_DisplaySts=0                        ; =0x0, msg=Radio_A1(0x380), sender=ETM
+SVC_SK_PRSNT=0                          ; =0x0, msg=EcuCfg16(0x2C5), sender=CBC
+SVC_SoftBtn_Rq=0                        ; =0x0, msg=Radio_A1(0x380), sender=ETM
+SYNC_STAT=0                             ; =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+SYNC_SW_RQ=0                            ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+SYNC_SW_RQ_M=0                          ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+SystemFailSts=0                         ; =Fail_not_present, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+T_BY_T_ON=0                             ; =0x0, msg=DIRECT_INFO(0x35C), sender=ETM
+T_BY_T_ON_2=0                           ; =0x0, msg=DIRECT_INFO2(0x376), sender=ETM
+TBM_REFLASH=0                           ; =No_Updates_Available, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+TCASE_STAT=7                            ; =SNA, =0x7, msg=GW_C_I3(0x332), sender=CBC
+TCaseAWD_DrvMdRq=0                      ; =NONE, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+TeenKeyPrsnt=0                          ; =0x0, msg=CBC_I4(0x122), sender=CBC
+TelematicSetupAck=0                     ; =No_ACK_Required, =0x0, msg=SERVICE_SETUP(0x3A5), sender=SGW
+TemperatureUnit=0                       ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+TextDisplay=0                           ; =NONE, =0x0, msg=GW_LIN_C_I3(0x2F8), sender=CBC
+TGW_AUD_MD_CAB_DR=29                    ; =RAD_OFF, =0x1D, msg=TGW_MSG(0x317), sender=ETM
+TGW_AUD_MD2_CAB_DR=0                    ; =NONE, =0x0, msg=TGW_MSG(0x317), sender=ETM
+TGW_AUD_MUTED=1                         ; =0x1, msg=TGW_STAT_I(0x2F3), sender=ETM
+TGW_CAMERA_DISP_STAT=0                  ; =DISP_NON_CAMERA, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+TGW_DISP_FLAG=0                         ; =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_DISP_STAT=9                         ; =DISP_SPLSH, =0x9, msg=TGW_A1(0x302), sender=ETM
+TGW_DISP_TYPE=0                         ; =DISP_VFD, =0x0, msg=TGW_STAT_I(0x2F3), sender=ETM
+TGW_GrpNum_IC=0                         ; =0x0, msg=TGW_DATA_IC(0x328), sender=ETM
+TGW_GrpTyp_IC=0                         ; =NO_TEXT, =0x0, msg=TGW_DATA_IC(0x328), sender=ETM
+TGW_HiGrpMark_IC=0                      ; =0x0, msg=TGW_DATA_IC(0x328), sender=ETM
+TGW_JUMP_FUNC=0                         ; =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_JUMP_FUNC_HVAC=0                    ; =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+TGW_JUMP_FUNC_HVAC_M=0                  ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+TGW_PT_CAB_DR=0                         ; =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_PT_IR1=0                            ; =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_PT_IR2=0                            ; =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_PWR_RQ=0                            ; =BO_OFF_TGW_OFF, =0x0, msg=TGW_PWR_MAST(0x12B), sender=ETM
+TGW_R_AC_RQ_M=0                         ; =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+TGW_RQ_FUNC_HVAC=0                      ; =NO_FUNC_RQ, =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+TGW_RQ_FUNC_HVAC_M=0                    ; =NO_FUNC_RQ, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+TGW_RQ_FUNC_R_HVAC=0                    ; =NO_FUNC_RQ, =0x0, msg=TGW_HVAC_CTRL(0x342), sender=ETM
+TGW_RQ_FUNC_R_HVAC_M=0                  ; =NO_FUNC_RQ, =0x0, msg=TGW_HVAC_CTRL_M(0x343), sender=ETM
+TGW_RQ1=0                               ; =NO_FUNC_RQ, =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_RQ2=60                              ; =0x3C, msg=TGW_FUNC(0x301), sender=ETM
+TGW_RQ3=0                               ; =NO_FUNC_RQ, =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_RSP=0                               ; =RSP_NONE, =0x0, msg=TGW_FUNC(0x301), sender=ETM
+TGW_TEXT_IC=0                           ; =0x0, msg=TGW_DATA_IC(0x328), sender=ETM
+THIRD_ROW_LOCK_STS=0                    ; =OFF, =0x0, msg=FSM_A1(0x284), sender=FSM
+THIRD_ROW_RADIO_POP_UP=0                ; =0x0, msg=FSM_A1(0x284), sender=FSM
+TILT_IN_REV_D=0                         ; =0x0, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+TIRE_PRESSURE_STAT=0                    ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+TLG_AJAR=0                              ; =0x0, msg=CBC_I2(0x2FA), sender=CBC
+TM_Enbl=0                               ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+TORQUE_STAT=0                           ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+TOW_HAUL_PRSNT=0                        ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+TorqueIntensitySts=0                    ; =T1, =0x0, msg=GW_C_I9(0x32C), sender=CBC
+TorqueUnit=0                            ; =0x0, msg=GW_LIN_C_I2(0x32A), sender=CBC
+TREB_LVL=10                             ; =LVL_NTRL, =0xA, msg=AMP_CTRL(0x30F), sender=ETM
+Trans_DrvMd_CfgSts=0                    ; =TX_NORM, =0x0, msg=CBC_I6(0x305), sender=CBC
+TrlrNum=0                               ; =NONE, =0x0, msg=GW_C_I3(0x332), sender=CBC
+TrlrStyle=0                             ; =NONE, =0x0, msg=GW_C_I3(0x332), sender=CBC
+TrlrStyle_1=1                           ; =TRAILER, =0x1, msg=ITBM_A2(0x38F), sender=CBC
+TrlrStyle_2=1                           ; =TRAILER, =0x1, msg=ITBM_A2(0x38F), sender=CBC
+TrlrStyle_3=1                           ; =TRAILER, =0x1, msg=ITBM_A2(0x38F), sender=CBC
+TrlrStyle_4=1                           ; =TRAILER, =0x1, msg=ITBM_A2(0x38F), sender=CBC
+Trns_DrvMdReq=0                         ; =NP, =0x0, msg=Radio_A2(0x3A0), sender=ETM
+TSI_Blink_Setting=1                     ; =0x1, msg=GW_LIN_C_I6(0x39E), sender=CBC
+TSI_Blink_Threshold=1                   ; =PLUS_FIVE, =0x1, msg=GW_LIN_C_I6(0x39E), sender=CBC
+TSI_FeatureStatus=0                     ; =Not_Active, =0x0, msg=GW_C_I9(0x32C), sender=CBC
+TURN_COMP=1                             ; =0x1, msg=DIRECT_INFO(0x35C), sender=ETM
+TURN_COMP_2=1                           ; =0x1, msg=DIRECT_INFO2(0x376), sender=ETM
+TurnIndLvr_Stat=0                       ; =IDLE, =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+TX_TEMP=255                             ; =0xFF, msg=GW_C_I5(0x232), sender=CBC
+U_CALL_BtnStat=0                        ; =NOT_PSD, =0x0, msg=CBC_I1(0x3B2), sender=CBC
+U_CALL_STAT=0                           ; =OFF, =0x0, msg=TGW_A1(0x302), sender=ETM
+U_CALL_STAT_OHC=0                       ; =Off, =0x0, msg=TGW_A1(0x302), sender=ETM
+U_Call_Button=0                         ; =NOT_PRESSED, =0x0, msg=CBC_I7(0x306), sender=CBC
+UNIT_SET_CSO=0                          ; =UnitSet_1, =0x0, msg=GW_LIN_C_I5(0x395), sender=CBC
+UNITS=7                                 ; =SNA, =0x7, msg=DIRECT_INFO(0x35C), sender=ETM
+UNITS_2=7                               ; =SNA, =0x7, msg=DIRECT_INFO2(0x376), sender=ETM
+UpdateAction=0                          ; =No_Request, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+USB_Audio=0                             ; =0x0, msg=GLOB_CON_2(0x356), sender=SGW
+VC_3RD_ROW_LOCK_CSO=0                   ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_ABSD_CSO=0                           ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_ABSD_HAPTIC_CSO=0                    ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_ABSD_SENS_CSO=0                      ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_ABSD_STRN_CSO=0                      ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_ABSD_WARNING_CSO=0                   ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_ABSM=0                               ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_AC_Prsnt=0                           ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ACC_DLY_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_ACC_Type=0                           ; =NONE, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_ADJ_PDL_PRSNT=0                      ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_ADR_PRSNT=0                          ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_AFLS_CSO=0                           ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AGSprsnt=0                           ; =Not_Present, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_AIRBAG_ON_CSO=0                      ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_AL_FFC_OR_PLUS_CSO=0                 ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_AL_OR_PLUS_CSO=0                     ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_AMB_DMR_CSO=0                        ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AmbLtgPrsnt=0                        ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_AmbTempLct=3                         ; =SNA, =0x3, msg=VehCfg5(0x44A), sender=CBC
+VC_AnlgDrSnsr=0                         ; =NONE, =0x0, msg=VehCfg6(0x44C), sender=CBC
+VC_AQS_Prsnt=0                          ; =0x0, msg=VehCfg6(0x44C), sender=CBC
+VC_ARC_PRSNT=0                          ; =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_AS_ERS=0                             ; =NONE, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_ASCM_TJ_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_ASCM_WRN_CSO=1                       ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AUD_SWS_CF=0                         ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+VC_AUTO_AERO_CSO=1                      ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AUTO_HB=1                            ; =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_AUTO_HB_CSO=0                        ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AUTO_HL=1                            ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_AUTO_PRK_CSO=0                       ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_AUTO_SS_CSO=0                        ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_AUTO_STOP_START_CSO=0                ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_AUX_SWS_CSO=0                        ; =Absent, =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_Auto_Activ_PerfPage_CSO=0            ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_AutoParkPrsnt=0                      ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_AXLE_RATIO=65535                     ; =0xFFFF, msg=VehCfg4(0x3EB), sender=CBC
+VC_AxleLockerPrsnt=0                    ; =NONE, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_BACKUP_ALARM_CSO=0                   ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_Base_TPM=0                           ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_BLIND_SPOT_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_BLIND_SPOT_WARNING_CSO=0             ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_BODY_STYLE=5                         ; =BODY_4DH, =0x5, msg=VehCfg1(0x3E8), sender=CBC
+VC_Brake_Type=0                         ; =None, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_BrkTyp=7                             ; =SNA, =0x7, msg=VehCfg6(0x44C), sender=CBC
+VC_BSM_TRLR_CSO=0                       ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_BUZZER_VOLUME_LEVEL_CSO=0            ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_CAPACITY_CSO=0                       ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_CHILLER_PRSNT=0                      ; =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_CHMCM_Prsnt=0                        ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_CHMSL_LINE_CSO=0                     ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_ChassisType=127                      ; =0x7F, msg=VehCfg3(0x3EA), sender=CBC
+VC_ChildDisp_Prsnt=0                    ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_CLK_DSP_CSO=0                        ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_CMP_CAL_CSO=0                        ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_CMP_DISP=1                           ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_CMP_VAR_CSO=0                        ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_CMRA_GRDLNS_CSO=3                    ; =STATIC_DYNAMIC, =0x3, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_CMS=1                                ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_CONS_CSO=0                           ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_COUNTRY=3                            ; =EU, =0x3, msg=VehCfg1(0x3E8), sender=CBC
+VC_CRUISE_PRSNT=0                       ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_DampingPrsnt=0                       ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_DCS_CSO=1                            ; =Option_1_2, =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_DISTANCE_CSO=0                       ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_DOORS_OFF_ACC_DLY_CSO=0              ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_DR_LK_CSO=1                          ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_DR_UNLK_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_DRL_CSO=1                            ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_DRVMD_Prsnt=0                        ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_DrAlrPrsnt=1                         ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_DSBL_CLK_DISP=0                      ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_DST_Present=0                        ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_DualFuelSens=0                       ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_EASY_EXIT_CSO=1                      ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_ECO_Indicator=0                      ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ELV_Prsnt=0                          ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_EmodePrsnt=0                         ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_ENTRY_EXIT_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_EngPowerDrvMd_Prsnt=0                ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_EPB_ON_CSO=0                         ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_EPB_SERV_CSO=1                       ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_EPS_CSO=0                            ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_ESAVE_CSO=0                          ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_ESCDrvMd_Prsnt=0                     ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ESCL_PRSNT=0                         ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_EXTERNAL_LIGHT_SENSOR_CSO=0          ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_eShifter_Prsnt=0                     ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_FCW=1                                ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_FCW_BRK_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_FCW_CSO=1                            ; =Option_1_2, =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_FCW_SW_CSO=0                         ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_FCW_WARN_BRK_CSO=0                   ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_FFC_GRIDLINES_CSO=0                  ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_FG_PRSNT=0                           ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_FLSH_LMP_LK_CSO=1                    ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_FLSH_LMP_SLDR_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_FOBIKsafeENBL=1                      ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_FUEL_CAP=9                           ; =0x9, msg=VehCfg3(0x3EA), sender=CBC
+VC_FUEL_SAV_CSO=1                       ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_FULL_SPARE=0                         ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_FullSpeedRange_FCW=0                 ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_GlareFree_Prsnt=0                    ; =Not_Present, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_Glovebox=0                           ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_HANDS_FREE_LFT_CSO=0                 ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_HANDS_FREE_SLDR_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_HDC_Prsnt=0                          ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_HdRstPrsnt=1                         ; =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_HID_HL=0                             ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_HL_DRP_CSO=1                         ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HL_OFF_DLY_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HL_WPR_CSO=1                         ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HOLD_N_GO_CSO=0                      ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_HRN_RMT_LK_CSO=1                     ; =Option_1_2, =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HRN_RMT_LWR_CSO=1                    ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HRN_RMT_ST_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HSA_CSO=1                            ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_HVAC_Config=5                        ; =2_ZN_ATC_p_RR, =0x5, msg=VehCfg3(0x3EA), sender=CBC
+VC_HWRSS_CSO=0                          ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_HybridType=0                         ; =NONE, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_ILL_APPRCH_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_IntEC_MIRR=1                         ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_KG_Prsnt=0                           ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_LaneCentering=0                      ; =Not_Present, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_LDW=0                                ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_LDW_Audio=0                          ; =Not_Present, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_LDW_ON_CSO=0                         ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_LDW_TRQ_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_LDW_WRN_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_LGHT_RMT_LWR_CSO=1                   ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_LgtLdPressFtTr=255                   ; =0xFF, msg=VehCfg2(0x3E9), sender=CBC
+VC_LgtLdPressRrTr=255                   ; =0xFF, msg=VehCfg2(0x3E9), sender=CBC
+VC_LHD_RHD=1                            ; =LHD, =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_Liftgate_Trunk=0                     ; =TRUNK, =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_LKA_CSO=0                            ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_LKA_SENS_CSO=0                       ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_LKA_STRN_CSO=0                       ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_LKA_WARNING_CSO=0                    ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_LUCI_PRSNT=0                         ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_MAX_VEH_SPD=255                      ; =0xFF, msg=VehCfg1(0x3E8), sender=CBC
+VC_MaseratiMd=0                         ; =NORMAL, =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_MaxLdPressFtTr=255                   ; =0xFF, msg=VehCfg2(0x3E9), sender=CBC
+VC_MaxLdPressRrTr=255                   ; =0xFF, msg=VehCfg2(0x3E9), sender=CBC
+VC_MemoryDRVMD_Prsnt=0                  ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_MOC_Type=0                           ; =NO_MOC, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_MODEL_YEAR=13                        ; =0xD, msg=VehCfg1(0x3E8), sender=CBC
+VC_MOTORIZED_SEATBELT_CSO=0             ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_MOTORIZED_SEATBELT_STRN_CSO=0        ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_NAV_TRN_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_NonReg_TPIS=0                        ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_OFFRoadModePrsnt=0                   ; =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_OFFroad_Camera=0                     ; =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_OffRoad=0                            ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_OffRoadPg=0                          ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_PAD_Lamp_Ctrl=0                      ; =CLUSTER, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_PADDLE_SHIFT_CSO=0                   ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_PADS_Prsnt=0                         ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ParkStopPrsnt=0                      ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_PBTyp=0                              ; =MECH, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_PCS_CSO=0                            ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_PDDL_PRSNT=0                         ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_PdlsMdPrsnt=0                        ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_PE_CSO=1                             ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PE_Prsnt=1                           ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_PEB_CSO=0                            ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_PER_SHFT_ENBL_CSO=0                  ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PER_SHFT_RPM_CSO=0                   ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PLG_CHM_CSO=1                        ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_POLICE=0                             ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_POLICE_PE_CSO=0                      ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_POWER_CSO=0                          ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_POWER_SIDE_STEP_CSO=0                ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_PP_Prsnt=0                           ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_PPPA_Prsnt=0                         ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_PRESSURE_CSO=0                       ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PRK_ASST_TYPE_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_PRK_AST_BRK_CSO=1                    ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PRK_AST_CSO=1                        ; =Option_1_2, =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PRK_FT_VOL_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PRK_RR_VOL_CSO=1                     ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_Prem_TPM=0                           ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_PTCPrsnt=0                           ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_PTO_CSO=0                            ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_PTS_Config=0                         ; =REAR, =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_PTS_DispTyp=0                        ; =HEAD_DISP, =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_PWR_FLD_MRR_CSO=0                    ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_PWR_LFT_GT=0                         ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_PWR_LT_SLDR=0                        ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_PWR_RT_SLDR=0                        ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_PwrIvtrTyp=0                         ; =NoPwrIvtr, =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_RAIN_WPR_CSO=1                       ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_RainSnsPrsnt=1                       ; =0x1, msg=VehCfg2(0x3E9), sender=CBC
+VC_RDY_DRV_CSO=0                        ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_REAR_CMRA_CSO=1                      ; =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_REAR_CMRA_DLY_CSO=1                  ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_RearDoorLocks2DCM=0                  ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_RedKey=0                             ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_RemStPrsnt=1                         ; =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_RKE_MEM_CSO=1                        ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_RKE_PRSNT=1                          ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_RKE_UNLK_CSO=1                       ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_RR_CARGO_GUIDE_LGT_CSO=0             ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_RR_DuallyPrsnt=0                     ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_RunFlatTirePrsnt=0                   ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_RVC_CVPM_DGRID_CSO=0                 ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_RVC_CVPM_SGRID_CSO=0                 ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_RVCM_Prsnt=1                         ; =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_SBR_Prsnt=0                          ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_SCR_Prsnt=0                          ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_SEIU_INPUT_WIRE_CSO=0                ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_SEIU_RPM_CSO=0                       ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_SecLkPrsnt=0                         ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_SecPrkPrsnt=0                        ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ShftInd_Prsnt=0                      ; =NONE, =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_ShftrTyp=15                          ; =SNA, =0xF, msg=VehCfg1(0x3E8), sender=CBC
+VC_SKIM_PRSNT=0                         ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_SLD_DR_ALRT_CSO=0                    ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SLD_DR_CHM_CSO=0                     ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SmartAlternator=0                    ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_SPEED_CSO=0                          ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SPEED_THRESHOLD_CSO=0                ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_SPEED_WARNING_CSO=0                  ; =ABSENT, =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SPORT_PRSNT=0                        ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_SpdLmt_PRSNT=0                       ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_SpecialPKG=11                        ; =0xB, msg=VehCfg1(0x3E8), sender=CBC
+VC_SpecialPKG_IC=255                    ; =SNA, =0xFF, msg=VehCfg2(0x3E9), sender=CBC
+VC_SRT_PRSNT=0                          ; =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_SSC_Prsnt=0                          ; =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VC_STFA_Prsnt=0                         ; =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_STP_PRSNT=0                          ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_Steering_Cfactor=0                   ; =TYPE_1, =0x0, msg=VehCfg8(0x38A), sender=CBC
+VC_Strng_Rt_0=255                       ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_Strng_Rt_Mns1=255                    ; =0xFF, msg=VehCfg6(0x44C), sender=CBC
+VC_Strng_Rt_Mns2=255                    ; =0xFF, msg=VehCfg6(0x44C), sender=CBC
+VC_Strng_Rt_Mns3=255                    ; =0xFF, msg=VehCfg6(0x44C), sender=CBC
+VC_Strng_Rt_Mns4=255                    ; =0xFF, msg=VehCfg6(0x44C), sender=CBC
+VC_Strng_Rt_Mns5=255                    ; =0xFF, msg=VehCfg6(0x44C), sender=CBC
+VC_Strng_Rt_pls1=255                    ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_Strng_Rt_pls2=255                    ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_Strng_Rt_pls3=255                    ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_Strng_Rt_pls4=255                    ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_Strng_Rt_pls5=255                    ; =0xFF, msg=VehCfg5(0x44A), sender=CBC
+VC_SUNR_Prsnt=0                         ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_SunShade_Present=1                   ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_Suspension_Type=0                    ; =None, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_SuspPrsnt=0                          ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_SVC_DELAY_CSO=0                      ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SVC_GRIDLINES_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_SVC_Prsnt=0                          ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_TCASE_HI_RATIO=16383                 ; =0x3FFF, msg=VehCfg4(0x3EB), sender=CBC
+VC_TCASE_LO_RATIO=65535                 ; =0xFFFF, msg=VehCfg4(0x3EB), sender=CBC
+VC_TcaseTyp=0                           ; =NOT_PRSNT, =0x0, msg=VehCfg3(0x3EA), sender=CBC
+VC_TEEN_AUTO_HB_CSO=0                   ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_BLIND_SPOT_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_FCW_BRK_CSO=0                   ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_FCW_SENS_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_FT_PRK_VOL_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_FUEL_POPUP_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_FUEL_WRN_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_LGHT_WPR_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_MAX_SPEED_CSO=0                 ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_PLG_CHIME_CSO=0                 ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_PRK_ASST_BRK_CSO=0              ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_PRK_ASST_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_RAIN_WPR_CSO=0                  ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_RR_PRK_VOL_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_SLD_DR_ALRT_CSO=0               ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEEN_SLD_DR_CHM_CSO=0                ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEMP_CSO=0                           ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TEMP_DISP=1                          ; =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_TeenKey=0                            ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_Temp_Display_Resolution=1            ; =Half_Degree_C, =0x1, msg=VehCfg7(0x381), sender=CBC
+VC_ThatchamPrsnt=0                      ; =0x0, msg=VehCfg2(0x3E9), sender=CBC
+VC_TIRE_CIRCUMF=65535                   ; =0xFFFF, msg=VehCfg4(0x3EB), sender=CBC
+VC_TIRE_FILL_ALERT_CSO=0                ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_TireCircumfFT=65535                  ; =0xFFFF, msg=VehCfg6(0x44C), sender=CBC
+VC_TLT_MRR_CSO=1                        ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TORQUE_CSO=0                         ; =0x0, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TPMS_Configuration=0                 ; =NHTSA, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_TRAILER_LENGTH_BLIND_SPOT_CSO=0      ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_TRLR_CSO=1                           ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TRLR_NAME_CSO=1                      ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TRLR_TYPE_CSO=1                      ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TRNS_MD_CSO=1                        ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_TRUNK_UNLOCK_ENABLE_CSO=0            ; =Absent, =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_TrafficSignInfo=0                    ; =Not_Present, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_Trans_Equipped=0                     ; =Automatic, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_Trans_N_Hold_Prsnt=0                 ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_TransType=63                         ; =SNA, =0x3F, msg=VehCfg7(0x381), sender=CBC
+VC_TrnsDrvMdPrsnt=0                     ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_TSBM_Prsnt=0                         ; =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_TSI_CSO=0                            ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_TSR_WARNING_MODE_CSO=0               ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_TSR_WARNING_MODE_OFFSET_CSO=0        ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_UNIT_SET_CSO=0                       ; =0x0, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_US_METRIC_CSO=1                      ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_VEH_BRAND=1                          ; =CHRYSLER, =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_VEH_LINE=35                          ; =VEH_WD, =0x23, msg=VehCfg1(0x3E8), sender=CBC
+VC_VehCfg1_Stat=1                       ; =PROGAMMED, =0x1, msg=VehCfg1(0x3E8), sender=CBC
+VC_VehCfg2_Stat=1                       ; =PROGAMMED, =0x1, msg=VehCfg2(0x3E9), sender=CBC
+VC_VehCfg3_Stat=1                       ; =PROGAMMED, =0x1, msg=VehCfg3(0x3EA), sender=CBC
+VC_VehCfg4_Stat=3                       ; =SNA, =0x3, msg=VehCfg4(0x3EB), sender=CBC
+VC_VehCfg5_Stat=1                       ; =PROGAMMED, =0x1, msg=VehCfg5(0x44A), sender=CBC
+VC_VehCfg6_Stat=3                       ; =SNA, =0x3, msg=VehCfg6(0x44C), sender=CBC
+VC_VehCfg7_Stat=1                       ; =PROGAMMED, =0x1, msg=VehCfg7(0x381), sender=CBC
+VC_VehCfg8_Stat=3                       ; =SNA, =0x3, msg=VehCfg8(0x38A), sender=CBC
+VC_VehCfgCSO1_Stat=1                    ; =PROGAMMED, =0x1, msg=VehCfgCSM1(0x3B3), sender=CBC
+VC_VehCfgCSO2_Stat=1                    ; =PROGAMMED, =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_VehCfgCSO3_Stat=3                    ; =SNA, =0x3, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_Vehicle_Package=0                    ; =None, =0x0, msg=VehCfg7(0x381), sender=CBC
+VC_WHL_ALGN_CSO=1                       ; =0x1, msg=VehCfgCSM2(0x3B4), sender=CBC
+VC_WHL_BASE=3                           ; =SNA, =0x3, msg=VehCfg3(0x3EA), sender=CBC
+VC_WIN_EXPR_FEAT=3                      ; =WIN_EXPR_NN, =0x3, msg=VehCfg3(0x3EA), sender=CBC
+VC_WIRELESS_CHARGER_CSO=0               ; =0x0, msg=VehCfgCSM3(0x3C2), sender=CBC
+VC_WTS_Prsnt=0                          ; =0x0, msg=VehCfg5(0x44A), sender=CBC
+VC_XWD=0                                ; =2FT, =0x0, msg=VehCfg1(0x3E8), sender=CBC
+VEH_SPEED=0                             ; =0x0, msg=GW_C1(0x322), sender=CBC
+VENT_ST_PRSNT=1                         ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+VES2_AUX1_STAT=0                        ; =AUX_MechNP, =0x0, msg=VES2_MSG(0x3A7), sender=VES2
+VES2_AUX2_STAT=0                        ; =AUX_MechNP, =0x0, msg=VES2_MSG(0x3A7), sender=VES2
+VES2_Audio_Active=0                     ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_CTRL_LK=0                          ; =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_DISP_FLAG=0                        ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_DISP_STAT=0                        ; =DISP_OFF, =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_H_SIZE=1600                        ; =0x640, msg=VES2_STAT(0x31B), sender=VES2
+VES2_IR1_AUD_MD=31                      ; =SNA, =0x1F, msg=VES2_STAT(0x31B), sender=VES2
+VES2_IR1_MUTED=0                        ; =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_IR2_AUD_MD=31                      ; =SNA, =0x1F, msg=VES2_STAT(0x31B), sender=VES2
+VES2_IR2_MUTED=0                        ; =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_JUMP_FUNC=0                        ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_PT_CAB_DR=0                        ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_PT_IR1=0                           ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_PT_IR2=0                           ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_PWR_ON=0                           ; =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_RDC2_STAT=0                        ; =DISP_OFF, =0x0, msg=VES2_STAT(0x31B), sender=VES2
+VES2_RQ1=0                              ; =NO_FUNC_RQ, =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_RQ2=0                              ; =NO_FUNC_RQ, =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_RQ3=0                              ; =NO_FUNC_RQ, =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_RSP=0                              ; =RSP_NONE, =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES2_Src_IR_Stat=0                      ; =MD_NONE, =0x0, msg=VES2_MSG(0x3A7), sender=VES2
+VES2_Src_TGW_Stat=0                     ; =MD_NONE, =0x0, msg=VES2_MSG(0x3A7), sender=VES2
+VES2_V_SIZE=1152                        ; =0x480, msg=VES2_STAT(0x31B), sender=VES2
+VES2_Video_Active=0                     ; =0x0, msg=VES2_FUNC(0x321), sender=VES2
+VES3_AUX_STAT=0                         ; =AUX_MechNP, =0x0, msg=VES3_MSG(0x333), sender=VES3
+VES3_AUX2_STAT=0                        ; =AUX_MechNP, =0x0, msg=VES3_MSG(0x333), sender=VES3
+VES3_CTRL_LK=0                          ; =0x0, msg=VES3_STAT(0x307), sender=VES3
+VES3_DISP_FLAG=0                        ; =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_DISP_STAT=0                        ; =DISP_OFF, =0x0, msg=VES3_STAT(0x307), sender=VES3
+VES3_IR1_MUTED=0                        ; =0x0, msg=VES3_STAT(0x307), sender=VES3
+VES3_IR2_MUTED=0                        ; =0x0, msg=VES3_STAT(0x307), sender=VES3
+VES3_JUMP_FUNC=0                        ; =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_PT_CAB_DR=0                        ; =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_PT_IR1=0                           ; =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_PT_IR2=0                           ; =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_PWR_ON=0                           ; =0x0, msg=VES3_STAT(0x307), sender=VES3
+VES3_RQ1=0                              ; =NO_FUNC_RQ, =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_RQ2=0                              ; =NO_FUNC_RQ, =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_RQ3=0                              ; =NO_FUNC_RQ, =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_RSP=0                              ; =RSP_NONE, =0x0, msg=VES3_FUNC(0x331), sender=VES3
+VES3_Src_IR_Stat=0                      ; =MD_NONE, =0x0, msg=VES3_MSG(0x333), sender=VES3
+VES3_Src_TGW_Stat=0                     ; =MD_NONE, =0x0, msg=VES3_MSG(0x333), sender=VES3
+VehAccel_X=255                          ; =0xFF, msg=GW_C_I6(0x252), sender=CBC
+VehAccel_Y=255                          ; =0xFF, msg=GW_C_I6(0x252), sender=CBC
+VehPerfAccel_X=510                      ; =0x1FE, msg=GW_C_I8(0x2C3), sender=CBC
+VehPerfAccel_Y=510                      ; =0x1FE, msg=GW_C_I8(0x2C3), sender=CBC
+VehSpd_MPH=0                            ; =0x0, msg=GW_C_I7(0x340), sender=CBC
+VehSpdDisp=65535                        ; =0xFFFF, msg=GW_C_I7(0x340), sender=CBC
+VIN_ChkDgt_Dsbl=0                       ; =0x0, msg=EcuCfg3(0x3F2), sender=CBC
+VIN=00000000000000000                   ; msg=VIN(0x3E0), sender=CBC
+VOL=0                                   ; =VOL_NONE, =0x0, msg=StW_Actn_Rq(0x318), sender=CBC
+VR_Blower_Req=0                         ; =0x0, msg=TGW_A1(0x302), sender=ETM
+VR_Blower_Stat=0                        ; =Normal_blower_operation, =0x0, msg=HVAC_A1(0x30E), sender=HVAC
+VRM_AUD_MD_CAB=0                        ; =NONE, =0x0, msg=VRM_STAT(0x352), sender=SGW
+VRM_Audio_Active=0                      ; =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_H_SIZE=1600                         ; =0x640, msg=VRM_STAT(0x352), sender=SGW
+VRM_IR1_AUD_MD=0                        ; =NONE, =0x0, msg=VRM_STAT(0x352), sender=SGW
+VRM_IR2_AUD_MD=0                        ; =NONE, =0x0, msg=VRM_STAT(0x352), sender=SGW
+VRM_IR3_AUD_MD=0                        ; =NONE, =0x0, msg=VRM_STAT(0x352), sender=SGW
+VRM_JUMP_FUNC=0                         ; =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_PT_CAB_DR=0                         ; =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_RDC2_STAT=0                         ; =DISP_OFF, =0x0, msg=VRM_STAT(0x352), sender=SGW
+VRM_RQ1=0                               ; =NO_FUNC_RQ, =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_RQ2=0                               ; =NO_FUNC_RQ, =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_RQ3=0                               ; =NO_FUNC_RQ, =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_RSP=0                               ; =RSP_NONE, =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VRM_V_SIZE=1152                         ; =0x480, msg=VRM_STAT(0x352), sender=SGW
+VRM_Video_Active=0                      ; =0x0, msg=VRM_FUNC(0x351), sender=SGW
+VTA_PRSNT=1                             ; =0x1, msg=EcuCfg3(0x3F2), sender=CBC
+WAL_Enbl=0                              ; =0x0, msg=GW_C_I3(0x332), sender=CBC
+WATER_IN_FUEL_STAT=0                    ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+WakeupCnt_AMP=255                       ; =0xFF, msg=NM_AMP(0x43E), sender=AMP
+WakeupCnt_ANC=255                       ; =0xFF, msg=NM_ANC(0x425), sender=ANC
+WakeupCnt_CBC=255                       ; =0xFF, msg=NM_CBC(0x401), sender=CBC
+WakeupCnt_CSWM=255                      ; =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+WakeupCnt_DCM_DR=255                    ; =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+WakeupCnt_DCM_PASS=255                  ; =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+WakeupCnt_DCM_RL=255                    ; =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+WakeupCnt_DCM_RR=255                    ; =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+WakeupCnt_DCSD=255                      ; =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+WakeupCnt_DTV=255                       ; =0xFF, msg=NM_DTV(0x434), sender=DTV
+WakeupCnt_DVD=0                         ; =0x0, msg=NM_DVD(0x436), sender=DVD
+WakeupCnt_FSM=255                       ; =0xFF, msg=NM_FSM(0x40D), sender=FSM
+WakeupCnt_HVAC=255                      ; =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+WakeupCnt_HVAC_R=255                    ; =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+WakeupCnt_ICS_I=255                     ; =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+WakeupCnt_ICS_R=255                     ; =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+WakeupCnt_ITM=0                         ; =0x0, msg=NM_ITM(0x40F), sender=ITM
+WakeupCnt_MSM=255                       ; =0xFF, msg=NM_MSM(0x40A), sender=MSM
+WakeupCnt_MSM_PASS=255                  ; =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+WakeupCnt_PLG=255                       ; =0xFF, msg=NM_PLG(0x40C), sender=PLG
+WakeupCnt_PSD_LT=255                    ; =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+WakeupCnt_PSD_RT=255                    ; =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+WakeupCnt_PTCM=255                      ; =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+WakeupCnt_TBM=255                       ; =0xFF, msg=NM_TBM(0x42B), sender=SGW
+WakeupCnt_TGW=255                       ; =0xFF, msg=NM_TGW(0x43F), sender=ETM
+WakeupCnt_TTM=255                       ; =0xFF, msg=NM_TTM(0x432), sender=TTM
+WakeupCnt_UPFM=255                      ; =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+WakeupCnt_VES2=255                      ; =0xFF, msg=NM_VES2(0x437), sender=VES2
+WakeupCnt_VES3=255                      ; =0xFF, msg=NM_VES3(0x43B), sender=VES3
+WakeupCnt_VRM=255                       ; =0xFF, msg=NM_VRM(0x42D), sender=SGW
+WakeupRsn_AMP=255                       ; =SNA, =0xFF, msg=NM_AMP(0x43E), sender=AMP
+WakeupRsn_ANC=255                       ; =SNA, =0xFF, msg=NM_ANC(0x425), sender=ANC
+WakeupRsn_CBC=255                       ; =SNA, =0xFF, msg=NM_CBC(0x401), sender=CBC
+WakeupRsn_CSWM=255                      ; =SNA, =0xFF, msg=NM_CSWM(0x412), sender=CSWM
+WakeupRsn_DCM_DR=255                    ; =SNA, =0xFF, msg=NM_DCM_DR(0x404), sender=DCM_DR
+WakeupRsn_DCM_PASS=255                  ; =SNA, =0xFF, msg=NM_DCM_PASS(0x405), sender=DCM_PASS
+WakeupRsn_DCM_RL=255                    ; =SNA, =0xFF, msg=NM_DCM_RL(0x406), sender=DCM_RL
+WakeupRsn_DCM_RR=255                    ; =SNA, =0xFF, msg=NM_DCM_RR(0x407), sender=DCM_RR
+WakeupRsn_DCSD=255                      ; =SNA, =0xFF, msg=NM_DCSD(0x42C), sender=DCSD
+WakeupRsn_DTV=255                       ; =SNA, =0xFF, msg=NM_DTV(0x434), sender=DTV
+WakeupRsn_DVD=0                         ; =NETWORK, =0x0, msg=NM_DVD(0x436), sender=DVD
+WakeupRsn_FSM=255                       ; =SNA, =0xFF, msg=NM_FSM(0x40D), sender=FSM
+WakeupRsn_HVAC=255                      ; =SNA, =0xFF, msg=NM_HVAC(0x403), sender=HVAC
+WakeupRsn_HVAC_R=255                    ; =SNA, =0xFF, msg=NM_HVAC_R(0x418), sender=HVAC_R
+WakeupRsn_ICS_I=255                     ; =SNA, =0xFF, msg=NM_ICS_I(0x43C), sender=ICS
+WakeupRsn_ICS_R=255                     ; =SNA, =0xFF, msg=NM_ICS_R(0x42E), sender=ICS_R
+WakeupRsn_ITM=0                         ; =NETWORK, =0x0, msg=NM_ITM(0x40F), sender=ITM
+WakeupRsn_MSM=255                       ; =SNA, =0xFF, msg=NM_MSM(0x40A), sender=MSM
+WakeupRsn_MSM_PASS=255                  ; =SNA, =0xFF, msg=NM_MSM_PASS(0x415), sender=MSM_PASS
+WakeupRsn_PLG=255                       ; =SNA, =0xFF, msg=NM_PLG(0x40C), sender=PLG
+WakeupRsn_PSD_LT=255                    ; =SNA, =0xFF, msg=NM_PSD_LT(0x408), sender=PSD_LT
+WakeupRsn_PSD_RT=255                    ; =SNA, =0xFF, msg=NM_PSD_RT(0x409), sender=PSD_RT
+WakeupRsn_PTCM=255                      ; =SNA, =0xFF, msg=NM_PTCM(0x413), sender=PTCM
+WakeupRsn_TBM=255                       ; =SNA, =0xFF, msg=NM_TBM(0x42B), sender=SGW
+WakeupRsn_TGW=255                       ; =SNA, =0xFF, msg=NM_TGW(0x43F), sender=ETM
+WakeupRsn_TTM=255                       ; =SNA, =0xFF, msg=NM_TTM(0x432), sender=TTM
+WakeupRsn_UPFM=255                      ; =SNA, =0xFF, msg=NM_UPFM(0x41A), sender=UPFM
+WakeupRsn_VES2=255                      ; =SNA, =0xFF, msg=NM_VES2(0x437), sender=VES2
+WakeupRsn_VES3=255                      ; =SNA, =0xFF, msg=NM_VES3(0x43B), sender=VES3
+WakeupRsn_VRM=255                       ; =SNA, =0xFF, msg=NM_VRM(0x42D), sender=SGW
+WeekdayTmHour_End=31                    ; =SNA, =0x1F, msg=Radio_A3(0x3A1), sender=ETM
+WeekdayTmHour_Start=31                  ; =0x1F, msg=Radio_A3(0x3A1), sender=ETM
+WeekdayTmMinute_End=7                   ; =SNA, =0x7, msg=Radio_A3(0x3A1), sender=ETM
+WeekdayTmMinute_Start=7                 ; =SNA, =0x7, msg=Radio_A3(0x3A1), sender=ETM
+WeekendTmHour_End=31                    ; =SNA, =0x1F, msg=Radio_A3(0x3A1), sender=ETM
+WeekendTmHour_Start=31                  ; =0x1F, msg=Radio_A3(0x3A1), sender=ETM
+WeekendTmMinute_End=7                   ; =SNA, =0x7, msg=Radio_A3(0x3A1), sender=ETM
+WeekendTmMinute_Start=7                 ; =SNA, =0x7, msg=Radio_A3(0x3A1), sender=ETM
+WhlPlsCnt_FL=255                        ; =0xFF, msg=GW_C_I8(0x2C3), sender=CBC
+WhlPlsCnt_FR=255                        ; =0xFF, msg=GW_C_I8(0x2C3), sender=CBC
+WhlPlsCnt_RL=255                        ; =0xFF, msg=GW_C_I8(0x2C3), sender=CBC
+WhlPlsCnt_RR=255                        ; =0xFF, msg=GW_C_I8(0x2C3), sender=CBC
+WIFI_CHAR_1=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_2=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_3=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_4=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_5=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_6=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CHAR_7=0                           ; =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_CLIENT=0                           ; =Not_Received, =0x0, msg=HU_ACK(0x5EF), sender=ETM
+WIFI_FRAME_ID=0                         ; =Frame1, =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WIFI_TOTAL_FRAME_NUMBER=0               ; =Frame1, =0x0, msg=WIFI_CLIENT(0x35B), sender=SGW
+WINDSHIELD_FLUID_STAT=0                 ; =OFF, =0x0, msg=IPC_LMPS(0x3CD), sender=CBC
+WiFi_Confirm=0                          ; =OFF, =0x0, msg=GLOB_CON_2(0x356), sender=SGW
+WiFi_Rq=0                               ; =OFF, =0x0, msg=GLOB_LTM(0x357), sender=ETM
+WiFiFailSts=0                           ; =Fail_not_present, =0x0, msg=GLOB_CON(0x33D), sender=SGW
+Wifi_Setting_Reset=0                    ; =0x0, msg=GLOB_LTM(0x357), sender=ETM
+WinPos_D_Sts=127                        ; =0x7F, msg=DCM_D_MSG(0x2E2), sender=DCM_DR
+WinPos_P_Sts=127                        ; =0x7F, msg=DCM_P_MSG(0x2F2), sender=DCM_PASS
+WinPos_RL_Sts=127                       ; =0x7F, msg=DCM_RL_1(0x26E), sender=DCM_RL
+WinPos_RR_Sts=127                       ; =0x7F, msg=DCM_RR_1(0x26F), sender=DCM_RR
+WPR_SYS_HIGH=0                          ; =0x0, msg=CBC_I5(0x3A2), sender=CBC
+WPR_SYS_INT=0                           ; =0x0, msg=CBC_I5(0x3A2), sender=CBC
+WPR_SYS_LOW=0                           ; =0x0, msg=CBC_I5(0x3A2), sender=CBC
+WPR_SYS_MIST=0                          ; =0x0, msg=CBC_I5(0x3A2), sender=CBC
+WPR_SYS_OFF=1                           ; =0x1, msg=CBC_I5(0x3A2), sender=CBC
+WPR_SYS_WASH=0                          ; =0x0, msg=CBC_I5(0x3A2), sender=CBC
